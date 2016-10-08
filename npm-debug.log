@@ -1,0 +1,2394 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'i',
+1 verbose cli   '-g',
+1 verbose cli   'thinking-in-react' ]
+2 info using npm@2.14.20
+3 info using node@v4.4.1
+4 verbose install initial load of C:\Users\Dragovic\AppData\Roaming\npm\package.json
+5 verbose readDependencies loading dependencies from C:\Users\Dragovic\AppData\Roaming\npm\package.json
+6 silly cache add args [ 'thinking-in-react', null ]
+7 verbose cache add spec thinking-in-react
+8 silly cache add parsed spec Result {
+8 silly cache add   raw: 'thinking-in-react',
+8 silly cache add   scope: null,
+8 silly cache add   name: 'thinking-in-react',
+8 silly cache add   rawSpec: '',
+8 silly cache add   spec: 'latest',
+8 silly cache add   type: 'tag' }
+9 silly addNamed thinking-in-react@latest
+10 verbose addNamed "latest" is being treated as a dist-tag for thinking-in-react
+11 info addNameTag [ 'thinking-in-react', 'latest' ]
+12 silly mapToRegistry name thinking-in-react
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry https://registry.npmjs.org/
+15 silly mapToRegistry uri https://registry.npmjs.org/thinking-in-react
+16 verbose addNameTag registry:https://registry.npmjs.org/thinking-in-react not in flight; fetching
+17 verbose request uri https://registry.npmjs.org/thinking-in-react
+18 verbose request no auth needed
+19 info attempt registry request try #1 at 8:37:49 PM
+20 verbose request id 26a76969f65fd5d9
+21 verbose etag "EVA90O9NJAUD8M8O6AGPQHXDI"
+22 http request GET https://registry.npmjs.org/thinking-in-react
+23 http 304 https://registry.npmjs.org/thinking-in-react
+24 verbose headers { date: 'Sat, 08 Oct 2016 20:37:50 GMT',
+24 verbose headers   via: '1.1 varnish',
+24 verbose headers   'cache-control': 'max-age=300',
+24 verbose headers   etag: '"EVA90O9NJAUD8M8O6AGPQHXDI"',
+24 verbose headers   age: '143',
+24 verbose headers   connection: 'keep-alive',
+24 verbose headers   'x-served-by': 'cache-cdg8735-CDG',
+24 verbose headers   'x-cache': 'HIT',
+24 verbose headers   'x-cache-hits': '1',
+24 verbose headers   'x-timer': 'S1475959070.480778,VS0,VE0',
+24 verbose headers   vary: 'Accept-Encoding' }
+25 silly get cb [ 304,
+25 silly get   { date: 'Sat, 08 Oct 2016 20:37:50 GMT',
+25 silly get     via: '1.1 varnish',
+25 silly get     'cache-control': 'max-age=300',
+25 silly get     etag: '"EVA90O9NJAUD8M8O6AGPQHXDI"',
+25 silly get     age: '143',
+25 silly get     connection: 'keep-alive',
+25 silly get     'x-served-by': 'cache-cdg8735-CDG',
+25 silly get     'x-cache': 'HIT',
+25 silly get     'x-cache-hits': '1',
+25 silly get     'x-timer': 'S1475959070.480778,VS0,VE0',
+25 silly get     vary: 'Accept-Encoding' } ]
+26 verbose etag https://registry.npmjs.org/thinking-in-react from cache
+27 verbose get saving thinking-in-react to C:\Users\Dragovic\AppData\Roaming\npm-cache\registry.npmjs.org\thinking-in-react\.cache.json
+28 verbose correctMkdir C:\Users\Dragovic\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+29 silly addNameTag next cb for thinking-in-react with tag latest
+30 silly addNamed thinking-in-react@3.1.1
+31 verbose addNamed "3.1.1" is a plain semver version for thinking-in-react
+32 silly cache afterAdd thinking-in-react@3.1.1
+33 verbose afterAdd C:\Users\Dragovic\AppData\Roaming\npm-cache\thinking-in-react\3.1.1\package\package.json not in flight; writing
+34 verbose correctMkdir C:\Users\Dragovic\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+35 verbose afterAdd C:\Users\Dragovic\AppData\Roaming\npm-cache\thinking-in-react\3.1.1\package\package.json written
+36 silly install resolved [ { name: 'thinking-in-react',
+36 silly install resolved     version: '3.1.1',
+36 silly install resolved     description: 'Thinking in React workshopper',
+36 silly install resolved     bin: { 'thinking-in-react': './index.js' },
+36 silly install resolved     scripts: { test: 'mocha', start: 'node server.js' },
+36 silly install resolved     repository:
+36 silly install resolved      { type: 'git',
+36 silly install resolved        url: 'git://github.com/asbjornenge/thinking-in-react.git' },
+36 silly install resolved     keywords: [ 'react', 'workshopper', 'workshopper-module' ],
+36 silly install resolved     author: { name: 'Asbjorn Enge', email: 'asbjorn@hanafjedle.net' },
+36 silly install resolved     license: 'BSD',
+36 silly install resolved     bugs: { url: 'https://github.com/asbjornenge/thinking-in-react/issues' },
+36 silly install resolved     homepage: 'https://github.com/asbjornenge/thinking-in-react',
+36 silly install resolved     dependencies:
+36 silly install resolved      { babel: '^5.8.23',
+36 silly install resolved        babelify: '^6.3.0',
+36 silly install resolved        blessed: '0.0.37',
+36 silly install resolved        browserify: '^11.1.0',
+36 silly install resolved        chalk: '^0.4.0',
+36 silly install resolved        'concat-stream': '^1.4.5',
+36 silly install resolved        envify: '^1.2.1',
+36 silly install resolved        jsdom: '^7.0.2',
+36 silly install resolved        mocha: '^1.19.0',
+36 silly install resolved        react: '^15.1.0',
+36 silly install resolved        'react-addons-test-utils': '^15.1.0',
+36 silly install resolved        'react-dom': '^15.1.0',
+36 silly install resolved        workshopper: 'git://github.com/rvagg/workshopper.git#cef8219ca2919964113c6daedd78a5db8404051b',
+36 silly install resolved        'workshopper-exercise': '^0.2.3',
+36 silly install resolved        'workshopper-wrappedexec': '^0.1.1' },
+36 silly install resolved     gitHead: '0913024861460280d389445af34c7141c2d0d063',
+36 silly install resolved     _id: 'thinking-in-react@3.1.1',
+36 silly install resolved     _shasum: 'abee5067cc2efa778238802184dfa8e75d859282',
+36 silly install resolved     _from: 'thinking-in-react@latest',
+36 silly install resolved     _npmVersion: '3.8.6',
+36 silly install resolved     _nodeVersion: '5.11.1',
+36 silly install resolved     _npmUser: { name: 'asbjornenge', email: 'asbjorn@asbjornenge.com' },
+36 silly install resolved     dist:
+36 silly install resolved      { shasum: 'abee5067cc2efa778238802184dfa8e75d859282',
+36 silly install resolved        tarball: 'https://registry.npmjs.org/thinking-in-react/-/thinking-in-react-3.1.1.tgz' },
+36 silly install resolved     maintainers: [ [Object] ],
+36 silly install resolved     _npmOperationalInternal:
+36 silly install resolved      { host: 'packages-12-west.internal.npmjs.com',
+36 silly install resolved        tmp: 'tmp/thinking-in-react-3.1.1.tgz_1465048821523_0.5485616596415639' },
+36 silly install resolved     directories: {},
+36 silly install resolved     _resolved: 'https://registry.npmjs.org/thinking-in-react/-/thinking-in-react-3.1.1.tgz',
+36 silly install resolved     readme: 'ERROR: No README data found!' } ]
+37 info install thinking-in-react@3.1.1 into C:\Users\Dragovic\AppData\Roaming\npm
+38 info installOne thinking-in-react@3.1.1
+39 verbose installOne of thinking-in-react to C:\Users\Dragovic\AppData\Roaming\npm not in flight; installing
+40 verbose correctMkdir C:\Users\Dragovic\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+41 verbose lock using C:\Users\Dragovic\AppData\Roaming\npm-cache\_locks\thinking-in-react-421808578ae8e20e.lock for C:\Users\Dragovic\AppData\Roaming\npm\node_modules\thinking-in-react
+42 silly install write writing thinking-in-react 3.1.1 to C:\Users\Dragovic\AppData\Roaming\npm\node_modules\thinking-in-react
+43 verbose unbuild node_modules\thinking-in-react
+44 silly gentlyRm C:\Users\Dragovic\AppData\Roaming\npm\node_modules\thinking-in-react is being purged from base C:\Users\Dragovic\AppData\Roaming\npm
+45 verbose gentlyRm don't care about contents; nuking C:\Users\Dragovic\AppData\Roaming\npm\node_modules\thinking-in-react
+46 verbose tar unpack C:\Users\Dragovic\AppData\Roaming\npm-cache\thinking-in-react\3.1.1\package.tgz
+47 verbose tar unpacking to C:\Users\Dragovic\AppData\Roaming\npm\node_modules\thinking-in-react
+48 silly gentlyRm C:\Users\Dragovic\AppData\Roaming\npm\node_modules\thinking-in-react is being purged
+49 verbose gentlyRm don't care about contents; nuking C:\Users\Dragovic\AppData\Roaming\npm\node_modules\thinking-in-react
+50 silly gunzTarPerm modes [ '777', '666' ]
+51 silly gunzTarPerm extractEntry package.json
+52 silly gunzTarPerm modified mode [ 'package.json', 436, 438 ]
+53 silly gunzTarPerm extractEntry .npmignore
+54 silly gunzTarPerm modified mode [ '.npmignore', 436, 438 ]
+55 silly gunzTarPerm extractEntry README.md
+56 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+57 silly gunzTarPerm extractEntry index.js
+58 silly gunzTarPerm modified mode [ 'index.js', 436, 438 ]
+59 silly gunzTarPerm extractEntry server.js
+60 silly gunzTarPerm modified mode [ 'server.js', 436, 438 ]
+61 silly gunzTarPerm extractEntry thinking-in-react.js
+62 silly gunzTarPerm modified mode [ 'thinking-in-react.js', 436, 438 ]
+63 silly gunzTarPerm extractEntry exercises/spec_4.js
+64 silly gunzTarPerm modified mode [ 'exercises/spec_4.js', 436, 438 ]
+65 silly gunzTarPerm extractEntry exercises/mocha_exercise.js
+66 silly gunzTarPerm modified mode [ 'exercises/mocha_exercise.js', 436, 438 ]
+67 silly gunzTarPerm extractEntry exercises/render.js
+68 silly gunzTarPerm modified mode [ 'exercises/render.js', 436, 438 ]
+69 silly gunzTarPerm extractEntry exercises/spec_2_1.js
+70 silly gunzTarPerm modified mode [ 'exercises/spec_2_1.js', 436, 438 ]
+71 silly gunzTarPerm extractEntry exercises/spec_2_2.js
+72 silly gunzTarPerm modified mode [ 'exercises/spec_2_2.js', 436, 438 ]
+73 silly gunzTarPerm extractEntry exercises/spec_2_3.js
+74 silly gunzTarPerm modified mode [ 'exercises/spec_2_3.js', 436, 438 ]
+75 silly gunzTarPerm extractEntry exercises/spec_5.js
+76 silly gunzTarPerm modified mode [ 'exercises/spec_5.js', 436, 438 ]
+77 silly gunzTarPerm extractEntry exercises/products.json
+78 silly gunzTarPerm modified mode [ 'exercises/products.json', 420, 438 ]
+79 silly gunzTarPerm extractEntry exercises/menu.json
+80 silly gunzTarPerm modified mode [ 'exercises/menu.json', 420, 438 ]
+81 silly gunzTarPerm extractEntry exercises/final_words.md
+82 silly gunzTarPerm modified mode [ 'exercises/final_words.md', 420, 438 ]
+83 silly gunzTarPerm extractEntry exercises/step_1__break_the_ui_into_a_component_hierarchy/components.js
+84 silly gunzTarPerm modified mode [ 'exercises/step_1__break_the_ui_into_a_component_hierarchy/components.js',
+84 silly gunzTarPerm   420,
+84 silly gunzTarPerm   438 ]
+85 silly gunzTarPerm extractEntry exercises/step_1__break_the_ui_into_a_component_hierarchy/exercise.js
+86 silly gunzTarPerm modified mode [ 'exercises/step_1__break_the_ui_into_a_component_hierarchy/exercise.js',
+86 silly gunzTarPerm   420,
+86 silly gunzTarPerm   438 ]
+87 silly gunzTarPerm extractEntry exercises/step_1__break_the_ui_into_a_component_hierarchy/presentation.js
+88 silly gunzTarPerm modified mode [ 'exercises/step_1__break_the_ui_into_a_component_hierarchy/presentation.js',
+88 silly gunzTarPerm   436,
+88 silly gunzTarPerm   438 ]
+89 silly gunzTarPerm extractEntry exercises/step_1__break_the_ui_into_a_component_hierarchy/problem.md
+90 silly gunzTarPerm modified mode [ 'exercises/step_1__break_the_ui_into_a_component_hierarchy/problem.md',
+90 silly gunzTarPerm   436,
+90 silly gunzTarPerm   438 ]
+91 silly gunzTarPerm extractEntry exercises/step_1__break_the_ui_into_a_component_hierarchy/solution/solution.js
+92 silly gunzTarPerm modified mode [ 'exercises/step_1__break_the_ui_into_a_component_hierarchy/solution/solution.js',
+92 silly gunzTarPerm   420,
+92 silly gunzTarPerm   438 ]
+93 silly gunzTarPerm extractEntry exercises/step_2__build_static_version_in_react__part_1/exercise.js
+94 silly gunzTarPerm modified mode [ 'exercises/step_2__build_static_version_in_react__part_1/exercise.js',
+94 silly gunzTarPerm   420,
+94 silly gunzTarPerm   438 ]
+95 silly gunzTarPerm extractEntry exercises/step_2__build_static_version_in_react__part_1/spec.js
+96 silly gunzTarPerm modified mode [ 'exercises/step_2__build_static_version_in_react__part_1/spec.js',
+96 silly gunzTarPerm   420,
+96 silly gunzTarPerm   438 ]
+97 silly gunzTarPerm extractEntry exercises/step_2__build_static_version_in_react__part_1/problem.md
+98 silly gunzTarPerm modified mode [ 'exercises/step_2__build_static_version_in_react__part_1/problem.md',
+98 silly gunzTarPerm   436,
+98 silly gunzTarPerm   438 ]
+99 silly gunzTarPerm extractEntry exercises/step_2__build_static_version_in_react__part_1/solution/solution.js
+100 silly gunzTarPerm modified mode [ 'exercises/step_2__build_static_version_in_react__part_1/solution/solution.js',
+100 silly gunzTarPerm   436,
+100 silly gunzTarPerm   438 ]
+101 silly gunzTarPerm extractEntry exercises/step_2__build_static_version_in_react__part_2/exercise.js
+102 silly gunzTarPerm modified mode [ 'exercises/step_2__build_static_version_in_react__part_2/exercise.js',
+102 silly gunzTarPerm   420,
+102 silly gunzTarPerm   438 ]
+103 silly gunzTarPerm extractEntry exercises/step_2__build_static_version_in_react__part_2/spec.js
+104 silly gunzTarPerm modified mode [ 'exercises/step_2__build_static_version_in_react__part_2/spec.js',
+104 silly gunzTarPerm   436,
+104 silly gunzTarPerm   438 ]
+105 silly gunzTarPerm extractEntry exercises/step_2__build_static_version_in_react__part_2/problem.md
+106 silly gunzTarPerm modified mode [ 'exercises/step_2__build_static_version_in_react__part_2/problem.md',
+106 silly gunzTarPerm   436,
+106 silly gunzTarPerm   438 ]
+107 silly gunzTarPerm extractEntry exercises/step_2__build_static_version_in_react__part_2/solution/solution.js
+108 silly gunzTarPerm modified mode [ 'exercises/step_2__build_static_version_in_react__part_2/solution/solution.js',
+108 silly gunzTarPerm   436,
+108 silly gunzTarPerm   438 ]
+109 silly gunzTarPerm extractEntry exercises/step_2__build_static_version_in_react__part_3/exercise.js
+110 silly gunzTarPerm modified mode [ 'exercises/step_2__build_static_version_in_react__part_3/exercise.js',
+110 silly gunzTarPerm   420,
+110 silly gunzTarPerm   438 ]
+111 silly gunzTarPerm extractEntry exercises/step_2__build_static_version_in_react__part_3/spec.js
+112 silly gunzTarPerm modified mode [ 'exercises/step_2__build_static_version_in_react__part_3/spec.js',
+112 silly gunzTarPerm   420,
+112 silly gunzTarPerm   438 ]
+113 silly gunzTarPerm extractEntry exercises/step_2__build_static_version_in_react__part_3/problem.md
+114 silly gunzTarPerm modified mode [ 'exercises/step_2__build_static_version_in_react__part_3/problem.md',
+114 silly gunzTarPerm   420,
+114 silly gunzTarPerm   438 ]
+115 silly gunzTarPerm extractEntry exercises/step_2__build_static_version_in_react__part_3/solution/solution.js
+116 silly gunzTarPerm modified mode [ 'exercises/step_2__build_static_version_in_react__part_3/solution/solution.js',
+116 silly gunzTarPerm   436,
+116 silly gunzTarPerm   438 ]
+117 silly gunzTarPerm extractEntry exercises/step_3__identify_the_minimal_repr_of_ui_state/bingo.js
+118 silly gunzTarPerm modified mode [ 'exercises/step_3__identify_the_minimal_repr_of_ui_state/bingo.js',
+118 silly gunzTarPerm   420,
+118 silly gunzTarPerm   438 ]
+119 silly gunzTarPerm extractEntry exercises/step_3__identify_the_minimal_repr_of_ui_state/exercise.js
+120 silly gunzTarPerm modified mode [ 'exercises/step_3__identify_the_minimal_repr_of_ui_state/exercise.js',
+120 silly gunzTarPerm   420,
+120 silly gunzTarPerm   438 ]
+121 silly gunzTarPerm extractEntry exercises/step_3__identify_the_minimal_repr_of_ui_state/bingostates.json
+122 silly gunzTarPerm modified mode [ 'exercises/step_3__identify_the_minimal_repr_of_ui_state/bingostates.json',
+122 silly gunzTarPerm   420,
+122 silly gunzTarPerm   438 ]
+123 silly gunzTarPerm extractEntry exercises/step_3__identify_the_minimal_repr_of_ui_state/problem.md
+124 silly gunzTarPerm modified mode [ 'exercises/step_3__identify_the_minimal_repr_of_ui_state/problem.md',
+124 silly gunzTarPerm   420,
+124 silly gunzTarPerm   438 ]
+125 silly gunzTarPerm extractEntry exercises/step_3__identify_the_minimal_repr_of_ui_state/solution/solution.js
+126 silly gunzTarPerm modified mode [ 'exercises/step_3__identify_the_minimal_repr_of_ui_state/solution/solution.js',
+126 silly gunzTarPerm   436,
+126 silly gunzTarPerm   438 ]
+127 silly gunzTarPerm extractEntry exercises/step_4__identify_where_your_state_should_live/exercise.js
+128 silly gunzTarPerm modified mode [ 'exercises/step_4__identify_where_your_state_should_live/exercise.js',
+128 silly gunzTarPerm   420,
+128 silly gunzTarPerm   438 ]
+129 silly gunzTarPerm extractEntry exercises/step_4__identify_where_your_state_should_live/spec.js
+130 silly gunzTarPerm modified mode [ 'exercises/step_4__identify_where_your_state_should_live/spec.js',
+130 silly gunzTarPerm   420,
+130 silly gunzTarPerm   438 ]
+131 silly gunzTarPerm extractEntry exercises/step_4__identify_where_your_state_should_live/problem.md
+132 silly gunzTarPerm modified mode [ 'exercises/step_4__identify_where_your_state_should_live/problem.md',
+132 silly gunzTarPerm   420,
+132 silly gunzTarPerm   438 ]
+133 silly gunzTarPerm extractEntry exercises/step_4__identify_where_your_state_should_live/solution/solution.js
+134 silly gunzTarPerm modified mode [ 'exercises/step_4__identify_where_your_state_should_live/solution/solution.js',
+134 silly gunzTarPerm   436,
+134 silly gunzTarPerm   438 ]
+135 silly gunzTarPerm extractEntry exercises/step_5__add_inverse_data_flow/exercise.js
+136 silly gunzTarPerm modified mode [ 'exercises/step_5__add_inverse_data_flow/exercise.js',
+136 silly gunzTarPerm   420,
+136 silly gunzTarPerm   438 ]
+137 silly gunzTarPerm extractEntry exercises/step_5__add_inverse_data_flow/spec.js
+138 silly gunzTarPerm modified mode [ 'exercises/step_5__add_inverse_data_flow/spec.js', 420, 438 ]
+139 silly gunzTarPerm extractEntry exercises/step_5__add_inverse_data_flow/problem.md
+140 silly gunzTarPerm modified mode [ 'exercises/step_5__add_inverse_data_flow/problem.md',
+140 silly gunzTarPerm   436,
+140 silly gunzTarPerm   438 ]
+141 silly gunzTarPerm extractEntry exercises/step_5__add_inverse_data_flow/solution/solution.js
+142 silly gunzTarPerm modified mode [ 'exercises/step_5__add_inverse_data_flow/solution/solution.js',
+142 silly gunzTarPerm   436,
+142 silly gunzTarPerm   438 ]
+143 silly gunzTarPerm extractEntry static/workshop_render.js
+144 silly gunzTarPerm modified mode [ 'static/workshop_render.js', 436, 438 ]
+145 silly gunzTarPerm extractEntry static/index.html
+146 silly gunzTarPerm modified mode [ 'static/index.html', 420, 438 ]
+147 verbose write writing to C:\Users\Dragovic\AppData\Roaming\npm\node_modules\thinking-in-react\package.json
+148 info preinstall thinking-in-react@3.1.1
+149 verbose readDependencies loading dependencies from C:\Users\Dragovic\AppData\Roaming\npm\node_modules\thinking-in-react\package.json
+150 silly prepareForInstallMany adding babel@^5.8.23 from thinking-in-react dependencies
+151 silly prepareForInstallMany adding babelify@^6.3.0 from thinking-in-react dependencies
+152 silly prepareForInstallMany adding blessed@0.0.37 from thinking-in-react dependencies
+153 silly prepareForInstallMany adding browserify@^11.1.0 from thinking-in-react dependencies
+154 silly prepareForInstallMany adding chalk@^0.4.0 from thinking-in-react dependencies
+155 silly prepareForInstallMany adding concat-stream@^1.4.5 from thinking-in-react dependencies
+156 silly prepareForInstallMany adding envify@^1.2.1 from thinking-in-react dependencies
+157 silly prepareForInstallMany adding jsdom@^7.0.2 from thinking-in-react dependencies
+158 silly prepareForInstallMany adding mocha@^1.19.0 from thinking-in-react dependencies
+159 silly prepareForInstallMany adding react@^15.1.0 from thinking-in-react dependencies
+160 silly prepareForInstallMany adding react-addons-test-utils@^15.1.0 from thinking-in-react dependencies
+161 silly prepareForInstallMany adding react-dom@^15.1.0 from thinking-in-react dependencies
+162 silly prepareForInstallMany adding workshopper@git://github.com/rvagg/workshopper.git#cef8219ca2919964113c6daedd78a5db8404051b from thinking-in-react dependencies
+163 silly prepareForInstallMany adding workshopper-exercise@^0.2.3 from thinking-in-react dependencies
+164 silly prepareForInstallMany adding workshopper-wrappedexec@^0.1.1 from thinking-in-react dependencies
+165 verbose readDependencies loading dependencies from C:\Users\Dragovic\AppData\Roaming\npm\node_modules\thinking-in-react\package.json
+166 silly cache add args [ 'babel@^5.8.23', null ]
+167 verbose cache add spec babel@^5.8.23
+168 silly cache add args [ 'babelify@^6.3.0', null ]
+169 verbose cache add spec babelify@^6.3.0
+170 silly cache add parsed spec Result {
+170 silly cache add   raw: 'babel@^5.8.23',
+170 silly cache add   scope: null,
+170 silly cache add   name: 'babel',
+170 silly cache add   rawSpec: '^5.8.23',
+170 silly cache add   spec: '>=5.8.23 <6.0.0',
+170 silly cache add   type: 'range' }
+171 silly addNamed babel@>=5.8.23 <6.0.0
+172 verbose addNamed ">=5.8.23 <6.0.0" is a valid semver range for babel
+173 silly addNameRange { name: 'babel', range: '>=5.8.23 <6.0.0', hasData: false }
+174 silly mapToRegistry name babel
+175 silly mapToRegistry using default registry
+176 silly mapToRegistry registry https://registry.npmjs.org/
+177 silly mapToRegistry uri https://registry.npmjs.org/babel
+178 verbose addNameRange registry:https://registry.npmjs.org/babel not in flight; fetching
+179 silly cache add parsed spec Result {
+179 silly cache add   raw: 'babelify@^6.3.0',
+179 silly cache add   scope: null,
+179 silly cache add   name: 'babelify',
+179 silly cache add   rawSpec: '^6.3.0',
+179 silly cache add   spec: '>=6.3.0 <7.0.0',
+179 silly cache add   type: 'range' }
+180 silly addNamed babelify@>=6.3.0 <7.0.0
+181 verbose addNamed ">=6.3.0 <7.0.0" is a valid semver range for babelify
+182 silly addNameRange { name: 'babelify', range: '>=6.3.0 <7.0.0', hasData: false }
+183 silly mapToRegistry name babelify
+184 silly mapToRegistry using default registry
+185 silly mapToRegistry registry https://registry.npmjs.org/
+186 silly mapToRegistry uri https://registry.npmjs.org/babelify
+187 verbose addNameRange registry:https://registry.npmjs.org/babelify not in flight; fetching
+188 silly cache add args [ 'blessed@0.0.37', null ]
+189 verbose cache add spec blessed@0.0.37
+190 silly cache add parsed spec Result {
+190 silly cache add   raw: 'blessed@0.0.37',
+190 silly cache add   scope: null,
+190 silly cache add   name: 'blessed',
+190 silly cache add   rawSpec: '0.0.37',
+190 silly cache add   spec: '0.0.37',
+190 silly cache add   type: 'version' }
+191 silly addNamed blessed@0.0.37
+192 verbose addNamed "0.0.37" is a plain semver version for blessed
+193 silly mapToRegistry name blessed
+194 silly mapToRegistry using default registry
+195 silly mapToRegistry registry https://registry.npmjs.org/
+196 silly mapToRegistry uri https://registry.npmjs.org/blessed
+197 verbose addNameVersion registry:https://registry.npmjs.org/blessed not in flight; fetching
+198 silly cache add args [ 'browserify@^11.1.0', null ]
+199 verbose cache add spec browserify@^11.1.0
+200 silly cache add parsed spec Result {
+200 silly cache add   raw: 'browserify@^11.1.0',
+200 silly cache add   scope: null,
+200 silly cache add   name: 'browserify',
+200 silly cache add   rawSpec: '^11.1.0',
+200 silly cache add   spec: '>=11.1.0 <12.0.0',
+200 silly cache add   type: 'range' }
+201 silly addNamed browserify@>=11.1.0 <12.0.0
+202 verbose addNamed ">=11.1.0 <12.0.0" is a valid semver range for browserify
+203 silly addNameRange { name: 'browserify', range: '>=11.1.0 <12.0.0', hasData: false }
+204 silly mapToRegistry name browserify
+205 silly mapToRegistry using default registry
+206 silly mapToRegistry registry https://registry.npmjs.org/
+207 silly mapToRegistry uri https://registry.npmjs.org/browserify
+208 verbose addNameRange registry:https://registry.npmjs.org/browserify not in flight; fetching
+209 silly cache add args [ 'chalk@^0.4.0', null ]
+210 verbose cache add spec chalk@^0.4.0
+211 silly cache add parsed spec Result {
+211 silly cache add   raw: 'chalk@^0.4.0',
+211 silly cache add   scope: null,
+211 silly cache add   name: 'chalk',
+211 silly cache add   rawSpec: '^0.4.0',
+211 silly cache add   spec: '>=0.4.0 <0.5.0',
+211 silly cache add   type: 'range' }
+212 silly addNamed chalk@>=0.4.0 <0.5.0
+213 verbose addNamed ">=0.4.0 <0.5.0" is a valid semver range for chalk
+214 silly addNameRange { name: 'chalk', range: '>=0.4.0 <0.5.0', hasData: false }
+215 silly mapToRegistry name chalk
+216 silly mapToRegistry using default registry
+217 silly mapToRegistry registry https://registry.npmjs.org/
+218 silly mapToRegistry uri https://registry.npmjs.org/chalk
+219 verbose addNameRange registry:https://registry.npmjs.org/chalk not in flight; fetching
+220 silly cache add args [ 'concat-stream@^1.4.5', null ]
+221 verbose cache add spec concat-stream@^1.4.5
+222 silly cache add parsed spec Result {
+222 silly cache add   raw: 'concat-stream@^1.4.5',
+222 silly cache add   scope: null,
+222 silly cache add   name: 'concat-stream',
+222 silly cache add   rawSpec: '^1.4.5',
+222 silly cache add   spec: '>=1.4.5 <2.0.0',
+222 silly cache add   type: 'range' }
+223 silly addNamed concat-stream@>=1.4.5 <2.0.0
+224 verbose addNamed ">=1.4.5 <2.0.0" is a valid semver range for concat-stream
+225 silly addNameRange { name: 'concat-stream',
+225 silly addNameRange   range: '>=1.4.5 <2.0.0',
+225 silly addNameRange   hasData: false }
+226 silly mapToRegistry name concat-stream
+227 silly mapToRegistry using default registry
+228 silly mapToRegistry registry https://registry.npmjs.org/
+229 silly mapToRegistry uri https://registry.npmjs.org/concat-stream
+230 verbose addNameRange registry:https://registry.npmjs.org/concat-stream not in flight; fetching
+231 silly cache add args [ 'envify@^1.2.1', null ]
+232 verbose cache add spec envify@^1.2.1
+233 silly cache add parsed spec Result {
+233 silly cache add   raw: 'envify@^1.2.1',
+233 silly cache add   scope: null,
+233 silly cache add   name: 'envify',
+233 silly cache add   rawSpec: '^1.2.1',
+233 silly cache add   spec: '>=1.2.1 <2.0.0',
+233 silly cache add   type: 'range' }
+234 silly addNamed envify@>=1.2.1 <2.0.0
+235 verbose addNamed ">=1.2.1 <2.0.0" is a valid semver range for envify
+236 silly addNameRange { name: 'envify', range: '>=1.2.1 <2.0.0', hasData: false }
+237 silly mapToRegistry name envify
+238 silly mapToRegistry using default registry
+239 silly mapToRegistry registry https://registry.npmjs.org/
+240 silly mapToRegistry uri https://registry.npmjs.org/envify
+241 verbose addNameRange registry:https://registry.npmjs.org/envify not in flight; fetching
+242 silly cache add args [ 'jsdom@^7.0.2', null ]
+243 verbose cache add spec jsdom@^7.0.2
+244 silly cache add parsed spec Result {
+244 silly cache add   raw: 'jsdom@^7.0.2',
+244 silly cache add   scope: null,
+244 silly cache add   name: 'jsdom',
+244 silly cache add   rawSpec: '^7.0.2',
+244 silly cache add   spec: '>=7.0.2 <8.0.0',
+244 silly cache add   type: 'range' }
+245 silly addNamed jsdom@>=7.0.2 <8.0.0
+246 verbose addNamed ">=7.0.2 <8.0.0" is a valid semver range for jsdom
+247 silly addNameRange { name: 'jsdom', range: '>=7.0.2 <8.0.0', hasData: false }
+248 silly mapToRegistry name jsdom
+249 silly mapToRegistry using default registry
+250 silly mapToRegistry registry https://registry.npmjs.org/
+251 silly mapToRegistry uri https://registry.npmjs.org/jsdom
+252 verbose addNameRange registry:https://registry.npmjs.org/jsdom not in flight; fetching
+253 silly cache add args [ 'mocha@^1.19.0', null ]
+254 verbose cache add spec mocha@^1.19.0
+255 silly cache add parsed spec Result {
+255 silly cache add   raw: 'mocha@^1.19.0',
+255 silly cache add   scope: null,
+255 silly cache add   name: 'mocha',
+255 silly cache add   rawSpec: '^1.19.0',
+255 silly cache add   spec: '>=1.19.0 <2.0.0',
+255 silly cache add   type: 'range' }
+256 silly addNamed mocha@>=1.19.0 <2.0.0
+257 verbose addNamed ">=1.19.0 <2.0.0" is a valid semver range for mocha
+258 silly addNameRange { name: 'mocha', range: '>=1.19.0 <2.0.0', hasData: false }
+259 silly mapToRegistry name mocha
+260 silly mapToRegistry using default registry
+261 silly mapToRegistry registry https://registry.npmjs.org/
+262 silly mapToRegistry uri https://registry.npmjs.org/mocha
+263 verbose addNameRange registry:https://registry.npmjs.org/mocha not in flight; fetching
+264 silly cache add args [ 'react@^15.1.0', null ]
+265 verbose cache add spec react@^15.1.0
+266 silly cache add parsed spec Result {
+266 silly cache add   raw: 'react@^15.1.0',
+266 silly cache add   scope: null,
+266 silly cache add   name: 'react',
+266 silly cache add   rawSpec: '^15.1.0',
+266 silly cache add   spec: '>=15.1.0 <16.0.0',
+266 silly cache add   type: 'range' }
+267 silly addNamed react@>=15.1.0 <16.0.0
+268 verbose addNamed ">=15.1.0 <16.0.0" is a valid semver range for react
+269 silly addNameRange { name: 'react', range: '>=15.1.0 <16.0.0', hasData: false }
+270 silly mapToRegistry name react
+271 silly mapToRegistry using default registry
+272 silly mapToRegistry registry https://registry.npmjs.org/
+273 silly mapToRegistry uri https://registry.npmjs.org/react
+274 verbose addNameRange registry:https://registry.npmjs.org/react not in flight; fetching
+275 silly cache add args [ 'react-addons-test-utils@^15.1.0', null ]
+276 verbose cache add spec react-addons-test-utils@^15.1.0
+277 silly cache add parsed spec Result {
+277 silly cache add   raw: 'react-addons-test-utils@^15.1.0',
+277 silly cache add   scope: null,
+277 silly cache add   name: 'react-addons-test-utils',
+277 silly cache add   rawSpec: '^15.1.0',
+277 silly cache add   spec: '>=15.1.0 <16.0.0',
+277 silly cache add   type: 'range' }
+278 silly addNamed react-addons-test-utils@>=15.1.0 <16.0.0
+279 verbose addNamed ">=15.1.0 <16.0.0" is a valid semver range for react-addons-test-utils
+280 silly addNameRange { name: 'react-addons-test-utils',
+280 silly addNameRange   range: '>=15.1.0 <16.0.0',
+280 silly addNameRange   hasData: false }
+281 silly mapToRegistry name react-addons-test-utils
+282 silly mapToRegistry using default registry
+283 silly mapToRegistry registry https://registry.npmjs.org/
+284 silly mapToRegistry uri https://registry.npmjs.org/react-addons-test-utils
+285 verbose addNameRange registry:https://registry.npmjs.org/react-addons-test-utils not in flight; fetching
+286 silly cache add args [ 'react-dom@^15.1.0', null ]
+287 verbose cache add spec react-dom@^15.1.0
+288 silly cache add parsed spec Result {
+288 silly cache add   raw: 'react-dom@^15.1.0',
+288 silly cache add   scope: null,
+288 silly cache add   name: 'react-dom',
+288 silly cache add   rawSpec: '^15.1.0',
+288 silly cache add   spec: '>=15.1.0 <16.0.0',
+288 silly cache add   type: 'range' }
+289 silly addNamed react-dom@>=15.1.0 <16.0.0
+290 verbose addNamed ">=15.1.0 <16.0.0" is a valid semver range for react-dom
+291 silly addNameRange { name: 'react-dom', range: '>=15.1.0 <16.0.0', hasData: false }
+292 silly mapToRegistry name react-dom
+293 silly mapToRegistry using default registry
+294 silly mapToRegistry registry https://registry.npmjs.org/
+295 silly mapToRegistry uri https://registry.npmjs.org/react-dom
+296 verbose addNameRange registry:https://registry.npmjs.org/react-dom not in flight; fetching
+297 silly cache add args [ 'workshopper@git://github.com/rvagg/workshopper.git#cef8219ca2919964113c6daedd78a5db8404051b',
+297 silly cache add   null ]
+298 verbose cache add spec workshopper@git://github.com/rvagg/workshopper.git#cef8219ca2919964113c6daedd78a5db8404051b
+299 silly cache add args [ 'workshopper-exercise@^0.2.3', null ]
+300 verbose cache add spec workshopper-exercise@^0.2.3
+301 silly cache add parsed spec Result {
+301 silly cache add   raw: 'workshopper-exercise@^0.2.3',
+301 silly cache add   scope: null,
+301 silly cache add   name: 'workshopper-exercise',
+301 silly cache add   rawSpec: '^0.2.3',
+301 silly cache add   spec: '>=0.2.3 <0.3.0',
+301 silly cache add   type: 'range' }
+302 silly addNamed workshopper-exercise@>=0.2.3 <0.3.0
+303 verbose addNamed ">=0.2.3 <0.3.0" is a valid semver range for workshopper-exercise
+304 silly addNameRange { name: 'workshopper-exercise',
+304 silly addNameRange   range: '>=0.2.3 <0.3.0',
+304 silly addNameRange   hasData: false }
+305 silly mapToRegistry name workshopper-exercise
+306 silly mapToRegistry using default registry
+307 silly mapToRegistry registry https://registry.npmjs.org/
+308 silly mapToRegistry uri https://registry.npmjs.org/workshopper-exercise
+309 verbose addNameRange registry:https://registry.npmjs.org/workshopper-exercise not in flight; fetching
+310 silly cache add args [ 'workshopper-wrappedexec@^0.1.1', null ]
+311 verbose cache add spec workshopper-wrappedexec@^0.1.1
+312 silly cache add parsed spec Result {
+312 silly cache add   raw: 'workshopper-wrappedexec@^0.1.1',
+312 silly cache add   scope: null,
+312 silly cache add   name: 'workshopper-wrappedexec',
+312 silly cache add   rawSpec: '^0.1.1',
+312 silly cache add   spec: '>=0.1.1 <0.2.0',
+312 silly cache add   type: 'range' }
+313 silly addNamed workshopper-wrappedexec@>=0.1.1 <0.2.0
+314 verbose addNamed ">=0.1.1 <0.2.0" is a valid semver range for workshopper-wrappedexec
+315 silly addNameRange { name: 'workshopper-wrappedexec',
+315 silly addNameRange   range: '>=0.1.1 <0.2.0',
+315 silly addNameRange   hasData: false }
+316 silly mapToRegistry name workshopper-wrappedexec
+317 silly mapToRegistry using default registry
+318 silly mapToRegistry registry https://registry.npmjs.org/
+319 silly mapToRegistry uri https://registry.npmjs.org/workshopper-wrappedexec
+320 verbose addNameRange registry:https://registry.npmjs.org/workshopper-wrappedexec not in flight; fetching
+321 silly cache add parsed spec Result {
+321 silly cache add   raw: 'workshopper@git://github.com/rvagg/workshopper.git#cef8219ca2919964113c6daedd78a5db8404051b',
+321 silly cache add   scope: null,
+321 silly cache add   name: 'workshopper',
+321 silly cache add   rawSpec: 'git://github.com/rvagg/workshopper.git#cef8219ca2919964113c6daedd78a5db8404051b',
+321 silly cache add   spec: 'git://github.com/rvagg/workshopper.git#cef8219ca2919964113c6daedd78a5db8404051b',
+321 silly cache add   type: 'hosted',
+321 silly cache add   hosted:
+321 silly cache add    { type: 'github',
+321 silly cache add      ssh: 'git@github.com:rvagg/workshopper.git#cef8219ca2919964113c6daedd78a5db8404051b',
+321 silly cache add      sshUrl: 'git+ssh://git@github.com/rvagg/workshopper.git#cef8219ca2919964113c6daedd78a5db8404051b',
+321 silly cache add      httpsUrl: 'git+https://github.com/rvagg/workshopper.git#cef8219ca2919964113c6daedd78a5db8404051b',
+321 silly cache add      gitUrl: 'git://github.com/rvagg/workshopper.git#cef8219ca2919964113c6daedd78a5db8404051b',
+321 silly cache add      shortcut: 'github:rvagg/workshopper#cef8219ca2919964113c6daedd78a5db8404051b',
+321 silly cache add      directUrl: 'https://raw.githubusercontent.com/rvagg/workshopper/cef8219ca2919964113c6daedd78a5db8404051b/package.json' } }
+322 verbose addRemoteGit caching git://github.com/rvagg/workshopper.git#cef8219ca2919964113c6daedd78a5db8404051b
+323 verbose addRemoteGit git://github.com/rvagg/workshopper.git#cef8219ca2919964113c6daedd78a5db8404051b is a repository hosted by github
+324 silly tryClone cloning git://github.com/rvagg/workshopper.git#cef8219ca2919964113c6daedd78a5db8404051b via git://github.com/rvagg/workshopper.git#cef8219ca2919964113c6daedd78a5db8404051b
+325 verbose tryClone git-github-com-rvagg-workshopper-git-b7cda7ca not in flight; caching
+326 verbose correctMkdir C:\Users\Dragovic\AppData\Roaming\npm-cache\_git-remotes correctMkdir not in flight; initializing
+327 verbose request uri https://registry.npmjs.org/babelify
+328 verbose request no auth needed
+329 info attempt registry request try #1 at 8:37:50 PM
+330 verbose etag "SNSKUYP2K0COT3UOVE9TSZ83"
+331 http request GET https://registry.npmjs.org/babelify
+332 verbose request uri https://registry.npmjs.org/blessed
+333 verbose request no auth needed
+334 info attempt registry request try #1 at 8:37:50 PM
+335 verbose etag "CTUUKIVPORC6CRZO329V2282P"
+336 http request GET https://registry.npmjs.org/blessed
+337 verbose request uri https://registry.npmjs.org/babel
+338 verbose request no auth needed
+339 info attempt registry request try #1 at 8:37:50 PM
+340 verbose etag "C0ECZIOAE6M2LWBK5LVDFFEBT"
+341 http request GET https://registry.npmjs.org/babel
+342 verbose request uri https://registry.npmjs.org/browserify
+343 verbose request no auth needed
+344 info attempt registry request try #1 at 8:37:50 PM
+345 verbose etag "89TZ9UNLEFG1A6RV0YDHL6TK1"
+346 http request GET https://registry.npmjs.org/browserify
+347 verbose request uri https://registry.npmjs.org/chalk
+348 verbose request no auth needed
+349 info attempt registry request try #1 at 8:37:50 PM
+350 verbose etag "5V8CI67FCXXY3LN4TGJ77WC34"
+351 http request GET https://registry.npmjs.org/chalk
+352 verbose request uri https://registry.npmjs.org/envify
+353 verbose request no auth needed
+354 info attempt registry request try #1 at 8:37:50 PM
+355 verbose etag "6LMP18IVQN1LYQHEJQYYUN4ND"
+356 http request GET https://registry.npmjs.org/envify
+357 verbose request uri https://registry.npmjs.org/concat-stream
+358 verbose request no auth needed
+359 info attempt registry request try #1 at 8:37:50 PM
+360 verbose etag "3N0FWDFEVI4ARVOZRW5DDRM0O"
+361 http request GET https://registry.npmjs.org/concat-stream
+362 verbose request uri https://registry.npmjs.org/react
+363 verbose request no auth needed
+364 info attempt registry request try #1 at 8:37:50 PM
+365 verbose etag "2TGQSKC7SBXK7GTYPWF19RKH3"
+366 http request GET https://registry.npmjs.org/react
+367 verbose request uri https://registry.npmjs.org/react-addons-test-utils
+368 verbose request no auth needed
+369 info attempt registry request try #1 at 8:37:50 PM
+370 verbose etag "9T8SK136AM9SIQJWURKIL6X76"
+371 http request GET https://registry.npmjs.org/react-addons-test-utils
+372 verbose request uri https://registry.npmjs.org/react-dom
+373 verbose request no auth needed
+374 info attempt registry request try #1 at 8:37:50 PM
+375 verbose etag "9N41SMNBUV46ZYRDM2VYSR1R"
+376 http request GET https://registry.npmjs.org/react-dom
+377 verbose request uri https://registry.npmjs.org/workshopper-exercise
+378 verbose request no auth needed
+379 info attempt registry request try #1 at 8:37:50 PM
+380 verbose etag "9GBRVC5B6ARDBOFD65O0PG4US"
+381 http request GET https://registry.npmjs.org/workshopper-exercise
+382 verbose request uri https://registry.npmjs.org/workshopper-wrappedexec
+383 verbose request no auth needed
+384 info attempt registry request try #1 at 8:37:50 PM
+385 verbose etag "8PR7DAYV40ZLR4VIKG34WV1XD"
+386 http request GET https://registry.npmjs.org/workshopper-wrappedexec
+387 verbose request uri https://registry.npmjs.org/jsdom
+388 verbose request no auth needed
+389 info attempt registry request try #1 at 8:37:50 PM
+390 verbose etag "6Y6YB0SMCAALANI5EJKTSPT4C"
+391 http request GET https://registry.npmjs.org/jsdom
+392 verbose request uri https://registry.npmjs.org/mocha
+393 verbose request no auth needed
+394 info attempt registry request try #1 at 8:37:50 PM
+395 verbose etag "81R382D2RNXE71VFCIWDMAWDA"
+396 http request GET https://registry.npmjs.org/mocha
+397 warn addRemoteGit Error: not found: git
+397 warn addRemoteGit     at F (C:\Program Files\nodejs\node_modules\npm\node_modules\which\which.js:63:19)
+397 warn addRemoteGit     at E (C:\Program Files\nodejs\node_modules\npm\node_modules\which\which.js:72:29)
+397 warn addRemoteGit     at C:\Program Files\nodejs\node_modules\npm\node_modules\which\which.js:81:16
+397 warn addRemoteGit     at C:\Program Files\nodejs\node_modules\npm\node_modules\which\node_modules\isexe\index.js:44:5
+397 warn addRemoteGit     at C:\Program Files\nodejs\node_modules\npm\node_modules\which\node_modules\isexe\windows.js:29:5
+397 warn addRemoteGit     at FSReqWrap.oncomplete (fs.js:82:15)
+397 warn addRemoteGit  git://github.com/rvagg/workshopper.git#cef8219ca2919964113c6daedd78a5db8404051b resetting remote C:\Users\Dragovic\AppData\Roaming\npm-cache\_git-remotes\git-github-com-rvagg-workshopper-git-b7cda7ca because of error: { [Error: not found: git] code: 'ENOGIT' }
+398 info resetRemote resetting C:\Users\Dragovic\AppData\Roaming\npm-cache\_git-remotes\git-github-com-rvagg-workshopper-git-b7cda7ca for git://github.com/rvagg/workshopper.git#cef8219ca2919964113c6daedd78a5db8404051b
+399 silly gentlyRm C:\Users\Dragovic\AppData\Roaming\npm-cache\_git-remotes\git-github-com-rvagg-workshopper-git-b7cda7ca is being purged
+400 verbose gentlyRm don't care about contents; nuking C:\Users\Dragovic\AppData\Roaming\npm-cache\_git-remotes\git-github-com-rvagg-workshopper-git-b7cda7ca
+401 silly vacuum-fs purging C:\Users\Dragovic\AppData\Roaming\npm-cache\_git-remotes\git-github-com-rvagg-workshopper-git-b7cda7ca
+402 silly vacuum-fs quitting because other entries in C:\Users\Dragovic\AppData\Roaming\npm-cache\_git-remotes
+403 error git clone --template=C:\Users\Dragovic\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git://github.com/rvagg/workshopper.git C:\Users\Dragovic\AppData\Roaming\npm-cache\_git-remotes\git-github-com-rvagg-workshopper-git-b7cda7ca: undefined
+403 error git clone --template=C:\Users\Dragovic\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git://github.com/rvagg/workshopper.git C:\Users\Dragovic\AppData\Roaming\npm-cache\_git-remotes\git-github-com-rvagg-workshopper-git-b7cda7ca: undefined
+404 http 304 https://registry.npmjs.org/babelify
+405 verbose headers { date: 'Sat, 08 Oct 2016 20:37:51 GMT',
+405 verbose headers   via: '1.1 varnish',
+405 verbose headers   'cache-control': 'max-age=300',
+405 verbose headers   etag: '"SNSKUYP2K0COT3UOVE9TSZ83"',
+405 verbose headers   age: '141',
+405 verbose headers   connection: 'keep-alive',
+405 verbose headers   'x-served-by': 'cache-cdg8729-CDG',
+405 verbose headers   'x-cache': 'HIT',
+405 verbose headers   'x-cache-hits': '1',
+405 verbose headers   'x-timer': 'S1475959071.174747,VS0,VE0',
+405 verbose headers   vary: 'Accept-Encoding' }
+406 silly get cb [ 304,
+406 silly get   { date: 'Sat, 08 Oct 2016 20:37:51 GMT',
+406 silly get     via: '1.1 varnish',
+406 silly get     'cache-control': 'max-age=300',
+406 silly get     etag: '"SNSKUYP2K0COT3UOVE9TSZ83"',
+406 silly get     age: '141',
+406 silly get     connection: 'keep-alive',
+406 silly get     'x-served-by': 'cache-cdg8729-CDG',
+406 silly get     'x-cache': 'HIT',
+406 silly get     'x-cache-hits': '1',
+406 silly get     'x-timer': 'S1475959071.174747,VS0,VE0',
+406 silly get     vary: 'Accept-Encoding' } ]
+407 verbose etag https://registry.npmjs.org/babelify from cache
+408 verbose get saving babelify to C:\Users\Dragovic\AppData\Roaming\npm-cache\registry.npmjs.org\babelify\.cache.json
+409 verbose correctMkdir C:\Users\Dragovic\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+410 http 304 https://registry.npmjs.org/blessed
+411 verbose headers { date: 'Sat, 08 Oct 2016 20:37:51 GMT',
+411 verbose headers   via: '1.1 varnish',
+411 verbose headers   'cache-control': 'max-age=300',
+411 verbose headers   etag: '"CTUUKIVPORC6CRZO329V2282P"',
+411 verbose headers   age: '142',
+411 verbose headers   connection: 'keep-alive',
+411 verbose headers   'x-served-by': 'cache-cdg8734-CDG',
+411 verbose headers   'x-cache': 'HIT',
+411 verbose headers   'x-cache-hits': '1',
+411 verbose headers   'x-timer': 'S1475959071.174726,VS0,VE0',
+411 verbose headers   vary: 'Accept-Encoding' }
+412 silly get cb [ 304,
+412 silly get   { date: 'Sat, 08 Oct 2016 20:37:51 GMT',
+412 silly get     via: '1.1 varnish',
+412 silly get     'cache-control': 'max-age=300',
+412 silly get     etag: '"CTUUKIVPORC6CRZO329V2282P"',
+412 silly get     age: '142',
+412 silly get     connection: 'keep-alive',
+412 silly get     'x-served-by': 'cache-cdg8734-CDG',
+412 silly get     'x-cache': 'HIT',
+412 silly get     'x-cache-hits': '1',
+412 silly get     'x-timer': 'S1475959071.174726,VS0,VE0',
+412 silly get     vary: 'Accept-Encoding' } ]
+413 verbose etag https://registry.npmjs.org/blessed from cache
+414 verbose get saving blessed to C:\Users\Dragovic\AppData\Roaming\npm-cache\registry.npmjs.org\blessed\.cache.json
+415 verbose correctMkdir C:\Users\Dragovic\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+416 silly addNameRange number 2 { name: 'babelify', range: '>=6.3.0 <7.0.0', hasData: true }
+417 silly addNameRange versions [ 'babelify',
+417 silly addNameRange   [ '5.0.1',
+417 silly addNameRange     '5.0.2',
+417 silly addNameRange     '5.0.3',
+417 silly addNameRange     '5.0.4',
+417 silly addNameRange     '6.0.0',
+417 silly addNameRange     '5.0.5',
+417 silly addNameRange     '6.0.1',
+417 silly addNameRange     '6.0.2',
+417 silly addNameRange     '6.1.0',
+417 silly addNameRange     '6.1.1',
+417 silly addNameRange     '6.1.2',
+417 silly addNameRange     '6.1.3',
+417 silly addNameRange     '6.2.0',
+417 silly addNameRange     '6.3.0',
+417 silly addNameRange     '6.4.0',
+417 silly addNameRange     '7.0.0',
+417 silly addNameRange     '7.0.1',
+417 silly addNameRange     '7.0.2',
+417 silly addNameRange     '7.1.0',
+417 silly addNameRange     '7.2.0',
+417 silly addNameRange     '7.3.0' ] ]
+418 silly addNamed babelify@6.4.0
+419 verbose addNamed "6.4.0" is a plain semver version for babelify
+420 http 304 https://registry.npmjs.org/chalk
+421 verbose headers { date: 'Sat, 08 Oct 2016 20:37:51 GMT',
+421 verbose headers   via: '1.1 varnish',
+421 verbose headers   'cache-control': 'max-age=300',
+421 verbose headers   etag: '"5V8CI67FCXXY3LN4TGJ77WC34"',
+421 verbose headers   age: '145',
+421 verbose headers   connection: 'keep-alive',
+421 verbose headers   'x-served-by': 'cache-cdg8735-CDG',
+421 verbose headers   'x-cache': 'HIT',
+421 verbose headers   'x-cache-hits': '6',
+421 verbose headers   'x-timer': 'S1475959071.181953,VS0,VE0',
+421 verbose headers   vary: 'Accept-Encoding' }
+422 silly get cb [ 304,
+422 silly get   { date: 'Sat, 08 Oct 2016 20:37:51 GMT',
+422 silly get     via: '1.1 varnish',
+422 silly get     'cache-control': 'max-age=300',
+422 silly get     etag: '"5V8CI67FCXXY3LN4TGJ77WC34"',
+422 silly get     age: '145',
+422 silly get     connection: 'keep-alive',
+422 silly get     'x-served-by': 'cache-cdg8735-CDG',
+422 silly get     'x-cache': 'HIT',
+422 silly get     'x-cache-hits': '6',
+422 silly get     'x-timer': 'S1475959071.181953,VS0,VE0',
+422 silly get     vary: 'Accept-Encoding' } ]
+423 verbose etag https://registry.npmjs.org/chalk from cache
+424 verbose get saving chalk to C:\Users\Dragovic\AppData\Roaming\npm-cache\registry.npmjs.org\chalk\.cache.json
+425 verbose correctMkdir C:\Users\Dragovic\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+426 silly cache afterAdd babelify@6.4.0
+427 verbose afterAdd C:\Users\Dragovic\AppData\Roaming\npm-cache\babelify\6.4.0\package\package.json not in flight; writing
+428 verbose correctMkdir C:\Users\Dragovic\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+429 silly cache afterAdd blessed@0.0.37
+430 verbose afterAdd C:\Users\Dragovic\AppData\Roaming\npm-cache\blessed\0.0.37\package\package.json not in flight; writing
+431 verbose correctMkdir C:\Users\Dragovic\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+432 silly addNameRange number 2 { name: 'chalk', range: '>=0.4.0 <0.5.0', hasData: true }
+433 silly addNameRange versions [ 'chalk',
+433 silly addNameRange   [ '0.1.0',
+433 silly addNameRange     '0.1.1',
+433 silly addNameRange     '0.2.0',
+433 silly addNameRange     '0.2.1',
+433 silly addNameRange     '0.3.0',
+433 silly addNameRange     '0.4.0',
+433 silly addNameRange     '0.5.0',
+433 silly addNameRange     '0.5.1',
+433 silly addNameRange     '1.0.0',
+433 silly addNameRange     '1.1.0',
+433 silly addNameRange     '1.1.1',
+433 silly addNameRange     '1.1.2',
+433 silly addNameRange     '1.1.3' ] ]
+434 silly addNamed chalk@0.4.0
+435 verbose addNamed "0.4.0" is a plain semver version for chalk
+436 verbose afterAdd C:\Users\Dragovic\AppData\Roaming\npm-cache\babelify\6.4.0\package\package.json written
+437 verbose afterAdd C:\Users\Dragovic\AppData\Roaming\npm-cache\blessed\0.0.37\package\package.json written
+438 silly cache afterAdd chalk@0.4.0
+439 verbose afterAdd C:\Users\Dragovic\AppData\Roaming\npm-cache\chalk\0.4.0\package\package.json not in flight; writing
+440 verbose correctMkdir C:\Users\Dragovic\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+441 http 304 https://registry.npmjs.org/browserify
+442 verbose headers { date: 'Sat, 08 Oct 2016 20:37:51 GMT',
+442 verbose headers   via: '1.1 varnish',
+442 verbose headers   'cache-control': 'max-age=300',
+442 verbose headers   etag: '"89TZ9UNLEFG1A6RV0YDHL6TK1"',
+442 verbose headers   age: '141',
+442 verbose headers   connection: 'keep-alive',
+442 verbose headers   'x-served-by': 'cache-cdg8724-CDG',
+442 verbose headers   'x-cache': 'HIT',
+442 verbose headers   'x-cache-hits': '1',
+442 verbose headers   'x-timer': 'S1475959071.194309,VS0,VE0',
+442 verbose headers   vary: 'Accept-Encoding' }
+443 silly get cb [ 304,
+443 silly get   { date: 'Sat, 08 Oct 2016 20:37:51 GMT',
+443 silly get     via: '1.1 varnish',
+443 silly get     'cache-control': 'max-age=300',
+443 silly get     etag: '"89TZ9UNLEFG1A6RV0YDHL6TK1"',
+443 silly get     age: '141',
+443 silly get     connection: 'keep-alive',
+443 silly get     'x-served-by': 'cache-cdg8724-CDG',
+443 silly get     'x-cache': 'HIT',
+443 silly get     'x-cache-hits': '1',
+443 silly get     'x-timer': 'S1475959071.194309,VS0,VE0',
+443 silly get     vary: 'Accept-Encoding' } ]
+444 verbose etag https://registry.npmjs.org/browserify from cache
+445 verbose get saving browserify to C:\Users\Dragovic\AppData\Roaming\npm-cache\registry.npmjs.org\browserify\.cache.json
+446 verbose correctMkdir C:\Users\Dragovic\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+447 http 304 https://registry.npmjs.org/babel
+448 verbose headers { date: 'Sat, 08 Oct 2016 20:37:51 GMT',
+448 verbose headers   via: '1.1 varnish',
+448 verbose headers   'cache-control': 'max-age=300',
+448 verbose headers   etag: '"C0ECZIOAE6M2LWBK5LVDFFEBT"',
+448 verbose headers   age: '142',
+448 verbose headers   connection: 'keep-alive',
+448 verbose headers   'x-served-by': 'cache-cdg8731-CDG',
+448 verbose headers   'x-cache': 'HIT',
+448 verbose headers   'x-cache-hits': '1',
+448 verbose headers   'x-timer': 'S1475959071.203941,VS0,VE0',
+448 verbose headers   vary: 'Accept-Encoding' }
+449 silly get cb [ 304,
+449 silly get   { date: 'Sat, 08 Oct 2016 20:37:51 GMT',
+449 silly get     via: '1.1 varnish',
+449 silly get     'cache-control': 'max-age=300',
+449 silly get     etag: '"C0ECZIOAE6M2LWBK5LVDFFEBT"',
+449 silly get     age: '142',
+449 silly get     connection: 'keep-alive',
+449 silly get     'x-served-by': 'cache-cdg8731-CDG',
+449 silly get     'x-cache': 'HIT',
+449 silly get     'x-cache-hits': '1',
+449 silly get     'x-timer': 'S1475959071.203941,VS0,VE0',
+449 silly get     vary: 'Accept-Encoding' } ]
+450 verbose etag https://registry.npmjs.org/babel from cache
+451 verbose get saving babel to C:\Users\Dragovic\AppData\Roaming\npm-cache\registry.npmjs.org\babel\.cache.json
+452 verbose correctMkdir C:\Users\Dragovic\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+453 verbose afterAdd C:\Users\Dragovic\AppData\Roaming\npm-cache\chalk\0.4.0\package\package.json written
+454 silly addNameRange number 2 { name: 'browserify', range: '>=11.1.0 <12.0.0', hasData: true }
+455 silly addNameRange versions [ 'browserify',
+455 silly addNameRange   [ '0.0.1',
+455 silly addNameRange     '0.0.2',
+455 silly addNameRange     '0.0.3',
+455 silly addNameRange     '0.0.4',
+455 silly addNameRange     '0.0.5',
+455 silly addNameRange     '0.1.0',
+455 silly addNameRange     '0.1.1',
+455 silly addNameRange     '0.1.2',
+455 silly addNameRange     '0.1.3',
+455 silly addNameRange     '0.1.4',
+455 silly addNameRange     '0.1.5',
+455 silly addNameRange     '0.2.0',
+455 silly addNameRange     '0.2.1',
+455 silly addNameRange     '0.2.2',
+455 silly addNameRange     '0.2.3',
+455 silly addNameRange     '0.2.4',
+455 silly addNameRange     '0.2.5',
+455 silly addNameRange     '0.2.6',
+455 silly addNameRange     '0.2.7',
+455 silly addNameRange     '0.2.8',
+455 silly addNameRange     '0.2.9',
+455 silly addNameRange     '0.2.10',
+455 silly addNameRange     '0.2.11',
+455 silly addNameRange     '0.3.0',
+455 silly addNameRange     '0.3.1',
+455 silly addNameRange     '0.3.2',
+455 silly addNameRange     '0.3.3',
+455 silly addNameRange     '0.3.4',
+455 silly addNameRange     '0.3.5',
+455 silly addNameRange     '0.3.6',
+455 silly addNameRange     '0.3.7',
+455 silly addNameRange     '0.4.0',
+455 silly addNameRange     '0.4.1',
+455 silly addNameRange     '0.4.2',
+455 silly addNameRange     '0.4.3',
+455 silly addNameRange     '0.4.4',
+455 silly addNameRange     '0.4.5',
+455 silly addNameRange     '0.4.6',
+455 silly addNameRange     '0.4.7',
+455 silly addNameRange     '0.4.8',
+455 silly addNameRange     '0.4.9',
+455 silly addNameRange     '0.4.10',
+455 silly addNameRange     '0.4.11',
+455 silly addNameRange     '0.4.12',
+455 silly addNameRange     '0.4.13',
+455 silly addNameRange     '0.4.14',
+455 silly addNameRange     '0.4.15',
+455 silly addNameRange     '0.5.0',
+455 silly addNameRange     '0.5.1',
+455 silly addNameRange     '0.5.2',
+455 silly addNameRange     '1.0.0',
+455 silly addNameRange     '1.1.0',
+455 silly addNameRange     '1.1.1',
+455 silly addNameRange     '1.1.2',
+455 silly addNameRange     '1.1.3',
+455 silly addNameRange     '1.1.4',
+455 silly addNameRange     '1.2.0',
+455 silly addNameRange     '1.2.1',
+455 silly addNameRange     '1.2.2',
+455 silly addNameRange     '1.2.3',
+455 silly addNameRange     '1.2.4',
+455 silly addNameRange     '1.2.5',
+455 silly addNameRange     '1.2.6',
+455 silly addNameRange     '1.2.7',
+455 silly addNameRange     '1.2.8',
+455 silly addNameRange     '1.2.9',
+455 silly addNameRange     '1.3.0',
+455 silly addNameRange     '1.4.0',
+455 silly addNameRange     '1.4.1',
+455 silly addNameRange     '1.4.2',
+455 silly addNameRange     '1.4.3',
+455 silly addNameRange     '1.4.4',
+455 silly addNameRange     '1.4.5',
+455 silly addNameRange     '1.4.6',
+455 silly addNameRange     '1.4.7',
+455 silly addNameRange     '1.4.8',
+455 silly addNameRange     '1.5.0',
+455 silly addNameRange     '1.6.0',
+455 silly addNameRange     '1.6.1',
+455 silly addNameRange     '1.7.0',
+455 silly addNameRange     '1.7.1',
+455 silly addNameRange     '1.7.2',
+455 silly addNameRange     '1.7.3',
+455 silly addNameRange     '1.7.4',
+455 silly addNameRange     '1.7.5',
+455 silly addNameRange     '1.7.6',
+455 silly addNameRange     '1.7.7',
+455 silly addNameRange     '1.8.0',
+455 silly addNameRange     '1.8.1',
+455 silly addNameRange     '1.8.2',
+455 silly addNameRange     '1.8.3',
+455 silly addNameRange     '1.9.0',
+455 silly addNameRange     '1.9.1',
+455 silly addNameRange     '1.9.2',
+455 silly addNameRange     '1.9.3',
+455 silly addNameRange     '1.9.4',
+455 silly addNameRange     '1.10.0',
+455 silly addNameRange     '1.10.1',
+455 silly addNameRange     '1.10.2',
+455 silly addNameRange     '1.10.3',
+455 silly addNameRange     '1.10.4',
+455 silly addNameRange     '1.10.5',
+455 silly addNameRange     '1.10.6',
+455 silly addNameRange     '1.10.7',
+455 silly addNameRange     '1.10.8',
+455 silly addNameRange     '1.10.9',
+455 silly addNameRange     '1.10.11',
+455 silly addNameRange     '1.10.12',
+455 silly addNameRange     '1.10.13',
+455 silly addNameRange     '1.10.14',
+455 silly addNameRange     '1.10.15',
+455 silly addNameRange     '1.10.16',
+455 silly addNameRange     '1.10.17',
+455 silly addNameRange     '1.11.0',
+455 silly addNameRange     '1.11.1',
+455 silly addNameRange     '1.12.0',
+455 silly addNameRange     '1.12.1',
+455 silly addNameRange     '1.12.2',
+455 silly addNameRange     '1.12.3',
+455 silly addNameRange     '1.13.0',
+455 silly addNameRange     '1.13.1',
+455 silly addNameRange     '1.13.2',
+455 silly addNameRange     '1.13.3',
+455 silly addNameRange     '1.13.4',
+455 silly addNameRange     '1.13.5',
+455 silly addNameRange     '1.13.6',
+455 silly addNameRange     '1.13.8',
+455 silly addNameRange     '1.13.9',
+455 silly addNameRange     '1.13.10',
+455 silly addNameRange     '1.14.0',
+455 silly addNameRange     '1.14.1',
+455 silly addNameRange     '1.14.2',
+455 silly addNameRange     '1.14.3',
+455 silly addNameRange     '1.14.4',
+455 silly addNameRange     '1.14.5',
+455 silly addNameRange     '1.15.0',
+455 silly addNameRange     '1.15.1',
+455 silly addNameRange     '1.15.2',
+455 silly addNameRange     '1.15.3',
+455 silly addNameRange     '1.15.4',
+455 silly addNameRange     '1.15.5',
+455 silly addNameRange     '1.15.6',
+455 silly addNameRange     '1.16.0',
+455 silly addNameRange     '1.16.1',
+455 silly addNameRange     '1.16.2',
+455 silly addNameRange     '1.16.3',
+455 silly addNameRange     '1.16.4',
+455 silly addNameRange     '1.16.5',
+455 silly addNameRange     '1.16.6',
+455 silly addNameRange     '1.16.7',
+455 silly addNameRange     '1.16.8',
+455 silly addNameRange     '1.17.0',
+455 silly addNameRange     '1.17.1',
+455 silly addNameRange     '1.17.2',
+455 silly addNameRange     '1.17.3',
+455 silly addNameRange     '1.18.0',
+455 silly addNameRange     '2.0.0',
+455 silly addNameRange     '2.0.1',
+455 silly addNameRange     '2.1.0',
+455 silly addNameRange     '2.2.0',
+455 silly addNameRange     '2.2.1',
+455 silly addNameRange     '2.2.2',
+455 silly addNameRange     '2.2.3',
+455 silly addNameRange     '2.2.4',
+455 silly addNameRange     '2.2.5',
+455 silly addNameRange     '2.2.6',
+455 silly addNameRange     '2.3.0',
+455 silly addNameRange     '2.3.1',
+455 silly addNameRange     '2.4.0',
+455 silly addNameRange     '2.4.1',
+455 silly addNameRange     '2.4.2',
+455 silly addNameRange     '2.4.3',
+455 silly addNameRange     '2.5.0',
+455 silly addNameRange     '2.5.1',
+455 silly addNameRange     '2.6.0',
+455 silly addNameRange     '2.6.1',
+455 silly addNameRange     '2.7.0',
+455 silly addNameRange     '2.7.1',
+455 silly addNameRange     '2.7.2',
+455 silly addNameRange     '2.7.3',
+455 silly addNameRange     '2.7.4',
+455 silly addNameRange     '2.8.0',
+455 silly addNameRange     '2.8.1',
+455 silly addNameRange     '2.9.0',
+455 silly addNameRange     '2.10.0',
+455 silly addNameRange     '2.10.1',
+455 silly addNameRange     '2.10.2',
+455 silly addNameRange     '2.11.0',
+455 silly addNameRange     '2.12.0',
+455 silly addNameRange     '2.12.1',
+455 silly addNameRange     '2.12.2',
+455 silly addNameRange     '2.12.3',
+455 silly addNameRange     '2.12.4',
+455 silly addNameRange     '2.12.5',
+455 silly addNameRange     '2.13.0',
+455 silly addNameRange     '2.13.1',
+455 silly addNameRange     '2.13.2',
+455 silly addNameRange     '2.13.3',
+455 silly addNameRange     '2.14.0',
+455 silly addNameRange     '2.14.1',
+455 silly addNameRange     '2.14.2',
+455 silly addNameRange     '2.15.0',
+455 silly addNameRange     '2.16.0',
+455 silly addNameRange     '2.17.0',
+455 silly addNameRange     '2.17.1',
+455 silly addNameRange     '2.17.2',
+455 silly addNameRange     '2.17.3',
+455 silly addNameRange     '2.17.4',
+455 silly addNameRange     '2.18.0',
+455 silly addNameRange     '2.18.1',
+455 silly addNameRange     '2.19.0',
+455 silly addNameRange     '2.20.0',
+455 silly addNameRange     '2.20.1',
+455 silly addNameRange     '2.20.2',
+455 silly addNameRange     '2.21.0',
+455 silly addNameRange     '2.22.0',
+455 silly addNameRange     '2.23.0',
+455 silly addNameRange     '2.23.1',
+455 silly addNameRange     '2.24.0',
+455 silly addNameRange     '2.24.1',
+455 silly addNameRange     '2.24.2',
+455 silly addNameRange     '2.24.3',
+455 silly addNameRange     '2.25.0',
+455 silly addNameRange     '2.25.1',
+455 silly addNameRange     '2.26.0',
+455 silly addNameRange     '2.27.0',
+455 silly addNameRange     '2.27.1',
+455 silly addNameRange     '2.28.0',
+455 silly addNameRange     '2.29.0',
+455 silly addNameRange     '2.29.1',
+455 silly addNameRange     '2.30.0',
+455 silly addNameRange     '2.31.0',
+455 silly addNameRange     '2.32.0',
+455 silly addNameRange     '2.32.1',
+455 silly addNameRange     '2.32.2',
+455 silly addNameRange     '2.32.3',
+455 silly addNameRange     '2.32.4',
+455 silly addNameRange     '2.33.0',
+455 silly addNameRange     '2.33.1',
+455 silly addNameRange     '2.34.0',
+455 silly addNameRange     '2.34.1',
+455 silly addNameRange     '2.34.2',
+455 silly addNameRange     '2.34.3',
+455 silly addNameRange     '2.35.0',
+455 silly addNameRange     '2.35.1',
+455 silly addNameRange     '2.35.2',
+455 silly addNameRange     '2.35.3',
+455 silly addNameRange     '2.35.4',
+455 silly addNameRange     '2.36.0',
+455 silly addNameRange     '2.36.1',
+455 silly addNameRange     '3.0.0',
+455 silly addNameRange     '3.1.0',
+455 silly addNameRange     '3.1.1',
+455 silly addNameRange     '3.1.2',
+455 silly addNameRange     '3.1.3',
+455 silly addNameRange     '3.2.0',
+455 silly addNameRange     '3.2.1',
+455 silly addNameRange     '3.2.2',
+455 silly addNameRange     '3.3.0',
+455 silly addNameRange     '3.4.0',
+455 silly addNameRange     '3.4.1',
+455 silly addNameRange     '3.5.0',
+455 silly addNameRange     '3.6.0',
+455 silly addNameRange     '3.7.0',
+455 silly addNameRange     '3.8.0',
+455 silly addNameRange     '3.8.1',
+455 silly addNameRange     '3.9.0',
+455 silly addNameRange     '3.9.1',
+455 silly addNameRange     '3.10.0',
+455 silly addNameRange     '3.11.0',
+455 silly addNameRange     '3.11.1',
+455 silly addNameRange     '3.12.0',
+455 silly addNameRange     '3.13.0',
+455 silly addNameRange     '3.14.0',
+455 silly addNameRange     '3.14.1',
+455 silly addNameRange     '3.16.0',
+455 silly addNameRange     '3.16.1',
+455 silly addNameRange     '3.17.0',
+455 silly addNameRange     '3.18.0',
+455 silly addNameRange     '3.19.0',
+455 silly addNameRange     '3.19.1',
+455 silly addNameRange     '3.20.0',
+455 silly addNameRange     '3.20.1',
+455 silly addNameRange     '3.20.2',
+455 silly addNameRange     '3.21.0',
+455 silly addNameRange     '3.21.1',
+455 silly addNameRange     '3.22.0',
+455 silly addNameRange     '3.22.1',
+455 silly addNameRange     '3.23.0',
+455 silly addNameRange     '3.23.1',
+455 silly addNameRange     '3.24.0',
+455 silly addNameRange     '3.24.1',
+455 silly addNameRange     '3.24.2',
+455 silly addNameRange     '3.24.3',
+455 silly addNameRange     '3.24.4',
+455 silly addNameRange     '3.24.5',
+455 silly addNameRange     '3.24.6',
+455 silly addNameRange     '3.24.7',
+455 silly addNameRange     '3.24.8',
+455 silly addNameRange     '3.24.9',
+455 silly addNameRange     '3.24.10',
+455 silly addNameRange     '3.24.11',
+455 silly addNameRange     '3.24.13',
+455 silly addNameRange     '3.25.0',
+455 silly addNameRange     '3.25.1',
+455 silly addNameRange     '3.25.2',
+455 silly addNameRange     '3.26.0',
+455 silly addNameRange     '3.27.0',
+455 silly addNameRange     '3.27.1',
+455 silly addNameRange     '3.28.0',
+455 silly addNameRange     '3.28.1',
+455 silly addNameRange     '3.28.2',
+455 silly addNameRange     '3.29.0',
+455 silly addNameRange     '3.29.1',
+455 silly addNameRange     '3.30.0',
+455 silly addNameRange     '3.30.1',
+455 silly addNameRange     '3.30.2',
+455 silly addNameRange     '3.30.3',
+455 silly addNameRange     '3.30.4',
+455 silly addNameRange     '3.31.0',
+455 silly addNameRange     '3.31.1',
+455 silly addNameRange     '3.31.2',
+455 silly addNameRange     '3.32.0',
+455 silly addNameRange     '3.32.1',
+455 silly addNameRange     '3.33.0',
+455 silly addNameRange     '3.33.1',
+455 silly addNameRange     '3.34.0',
+455 silly addNameRange     '3.35.0',
+455 silly addNameRange     '3.36.0',
+455 silly addNameRange     '3.36.1',
+455 silly addNameRange     '3.37.0',
+455 silly addNameRange     '3.37.1',
+455 silly addNameRange     '3.37.2',
+455 silly addNameRange     '3.38.0',
+455 silly addNameRange     '3.38.1',
+455 silly addNameRange     '3.39.0',
+455 silly addNameRange     '3.40.0',
+455 silly addNameRange     '3.40.1',
+455 silly addNameRange     '3.40.2',
+455 silly addNameRange     '3.40.3',
+455 silly addNameRange     '3.40.4',
+455 silly addNameRange     '3.41.0',
+455 silly addNameRange     '3.42.0',
+455 silly addNameRange     '3.43.0',
+455 silly addNameRange     '3.44.0',
+455 silly addNameRange     '3.44.1',
+455 silly addNameRange     '3.44.2',
+455 silly addNameRange     '3.45.0',
+455 silly addNameRange     '3.46.0',
+455 silly addNameRange     '3.46.1',
+455 silly addNameRange     '4.0.0',
+455 silly addNameRange     '4.1.0',
+455 silly addNameRange     '4.1.1',
+455 silly addNameRange     '4.1.2',
+455 silly addNameRange     '4.1.3',
+455 silly addNameRange     '4.1.4',
+455 silly addNameRange     '4.1.5',
+455 silly addNameRange     '4.1.6',
+455 silly addNameRange     '4.1.7',
+455 silly addNameRange     '4.1.8',
+455 silly addNameRange     '4.1.9',
+455 silly addNameRange     '4.1.10',
+455 silly addNameRange     '4.1.11',
+455 silly addNameRange     '4.2.0',
+455 silly addNameRange     '4.2.1',
+455 silly addNameRange     '4.2.2',
+455 silly addNameRange     '4.2.3',
+455 silly addNameRange     '5.0.0',
+455 silly addNameRange     '5.0.1',
+455 silly addNameRange     '5.0.2',
+455 silly addNameRange     '5.0.3',
+455 silly addNameRange     '5.0.4',
+455 silly addNameRange     '5.0.5',
+455 silly addNameRange     '5.0.6',
+455 silly addNameRange     '5.0.7',
+455 silly addNameRange     '5.0.8',
+455 silly addNameRange     '5.1.0',
+455 silly addNameRange     '5.1.1',
+455 silly addNameRange     '5.2.0',
+455 silly addNameRange     '5.2.1',
+455 silly addNameRange     '5.3.0',
+455 silly addNameRange     '5.4.0',
+455 silly addNameRange     '5.4.1',
+455 silly addNameRange     '5.4.2',
+455 silly addNameRange     '5.5.0',
+455 silly addNameRange     '5.6.0',
+455 silly addNameRange     '5.6.1',
+455 silly addNameRange     '5.7.0',
+455 silly addNameRange     '5.8.0',
+455 silly addNameRange     '5.9.0',
+455 silly addNameRange     '5.9.1',
+455 silly addNameRange     '5.9.2',
+455 silly addNameRange     '5.9.3',
+455 silly addNameRange     '5.10.0',
+455 silly addNameRange     '5.10.1',
+455 silly addNameRange     '5.11.0',
+455 silly addNameRange     '5.11.1',
+455 silly addNameRange     '5.11.2',
+455 silly addNameRange     '5.12.0',
+455 silly addNameRange     '5.12.1',
+455 silly addNameRange     '5.12.2',
+455 silly addNameRange     '5.13.0',
+455 silly addNameRange     '5.13.1',
+455 silly addNameRange     '6.0.0',
+455 silly addNameRange     '6.0.1',
+455 silly addNameRange     '6.0.2',
+455 silly addNameRange     '6.0.3',
+455 silly addNameRange     '6.1.0',
+455 silly addNameRange     '6.1.1',
+455 silly addNameRange     '6.1.2',
+455 silly addNameRange     '6.2.0',
+455 silly addNameRange     '6.3.0',
+455 silly addNameRange     '6.3.1',
+455 silly addNameRange     '6.3.2',
+455 silly addNameRange     '6.3.3',
+455 silly addNameRange     '6.3.4',
+455 silly addNameRange     '7.0.0',
+455 silly addNameRange     '7.0.1',
+455 silly addNameRange     '7.0.2',
+455 silly addNameRange     '7.0.3',
+455 silly addNameRange     '7.1.0',
+455 silly addNameRange     '8.0.0',
+455 silly addNameRange     '8.0.1',
+455 silly addNameRange     '8.0.2',
+455 silly addNameRange     '8.0.3',
+455 silly addNameRange     '8.1.0',
+455 silly addNameRange     '8.1.1',
+455 silly addNameRange     '8.1.2',
+455 silly addNameRange     '8.1.3',
+455 silly addNameRange     '9.0.0',
+455 silly addNameRange     '9.0.1',
+455 silly addNameRange     '9.0.2',
+455 silly addNameRange     '9.0.3',
+455 silly addNameRange     '9.0.4',
+455 silly addNameRange     '9.0.5',
+455 silly addNameRange     '9.0.6',
+455 silly addNameRange     '9.0.7',
+455 silly addNameRange     '9.0.8',
+455 silly addNameRange     '10.0.0',
+455 silly addNameRange     '10.1.0',
+455 silly addNameRange     '10.1.1',
+455 silly addNameRange     '10.1.2',
+455 silly addNameRange     '10.1.3',
+455 silly addNameRange     '10.2.0',
+455 silly addNameRange     '10.2.1',
+455 silly addNameRange     '10.2.3',
+455 silly addNameRange     '10.2.4',
+455 silly addNameRange     '10.2.5',
+455 silly addNameRange     '10.2.6',
+455 silly addNameRange     '11.0.0',
+455 silly addNameRange     '11.0.1',
+455 silly addNameRange     '11.1.0',
+455 silly addNameRange     '11.2.0',
+455 silly addNameRange     '12.0.0',
+455 silly addNameRange     '12.0.1',
+455 silly addNameRange     '12.0.2',
+455 silly addNameRange     '13.0.0',
+455 silly addNameRange     '13.0.1',
+455 silly addNameRange     '13.1.0' ] ]
+456 silly addNamed browserify@11.2.0
+457 verbose addNamed "11.2.0" is a plain semver version for browserify
+458 silly addNameRange number 2 { name: 'babel', range: '>=5.8.23 <6.0.0', hasData: true }
+459 silly addNameRange versions [ 'babel',
+459 silly addNameRange   [ '0.0.1',
+459 silly addNameRange     '4.0.1',
+459 silly addNameRange     '4.0.2',
+459 silly addNameRange     '4.1.1',
+459 silly addNameRange     '4.2.0',
+459 silly addNameRange     '4.2.1',
+459 silly addNameRange     '4.3.0',
+459 silly addNameRange     '4.4.1',
+459 silly addNameRange     '4.4.2',
+459 silly addNameRange     '4.4.3',
+459 silly addNameRange     '4.4.4',
+459 silly addNameRange     '4.4.5',
+459 silly addNameRange     '4.4.6',
+459 silly addNameRange     '4.5.0',
+459 silly addNameRange     '4.5.1',
+459 silly addNameRange     '4.5.2',
+459 silly addNameRange     '4.5.3',
+459 silly addNameRange     '4.5.4',
+459 silly addNameRange     '4.5.5',
+459 silly addNameRange     '4.6.0',
+459 silly addNameRange     '4.6.1',
+459 silly addNameRange     '4.6.3',
+459 silly addNameRange     '4.6.4',
+459 silly addNameRange     '4.6.5',
+459 silly addNameRange     '4.6.6',
+459 silly addNameRange     '4.7.0',
+459 silly addNameRange     '4.7.1',
+459 silly addNameRange     '4.7.2',
+459 silly addNameRange     '4.7.3',
+459 silly addNameRange     '4.7.4',
+459 silly addNameRange     '4.7.5',
+459 silly addNameRange     '4.7.6',
+459 silly addNameRange     '4.7.7',
+459 silly addNameRange     '4.7.8',
+459 silly addNameRange     '4.7.9',
+459 silly addNameRange     '4.7.10',
+459 silly addNameRange     '4.7.11',
+459 silly addNameRange     '4.7.12',
+459 silly addNameRange     '4.7.13',
+459 silly addNameRange     '4.7.14',
+459 silly addNameRange     '4.7.15',
+459 silly addNameRange     '4.7.16',
+459 silly addNameRange     '5.0.0-beta2',
+459 silly addNameRange     '5.0.0-beta3',
+459 silly addNameRange     '5.0.0-beta4',
+459 silly addNameRange     '5.0.0',
+459 silly addNameRange     '5.0.1',
+459 silly addNameRange     '5.0.2',
+459 silly addNameRange     '5.0.3',
+459 silly addNameRange     '5.0.4',
+459 silly addNameRange     '5.0.5',
+459 silly addNameRange     '5.0.6',
+459 silly addNameRange     '5.0.7',
+459 silly addNameRange     '5.0.8',
+459 silly addNameRange     '5.0.9',
+459 silly addNameRange     '5.0.10',
+459 silly addNameRange     '5.0.11',
+459 silly addNameRange     '5.0.12',
+459 silly addNameRange     '5.0.13',
+459 silly addNameRange     '5.1.0',
+459 silly addNameRange     '5.1.1',
+459 silly addNameRange     '5.1.2',
+459 silly addNameRange     '5.1.3',
+459 silly addNameRange     '5.1.4',
+459 silly addNameRange     '5.1.5',
+459 silly addNameRange     '5.1.6',
+459 silly addNameRange     '5.1.7',
+459 silly addNameRange     '5.1.8',
+459 silly addNameRange     '5.1.9',
+459 silly addNameRange     '5.1.10',
+459 silly addNameRange     '5.1.11',
+459 silly addNameRange     '5.1.12',
+459 silly addNameRange     '5.1.13',
+459 silly addNameRange     '5.2.0',
+459 silly addNameRange     '5.2.1',
+459 silly addNameRange     '5.2.2',
+459 silly addNameRange     '5.2.3',
+459 silly addNameRange     '5.2.4',
+459 silly addNameRange     '5.2.5',
+459 silly addNameRange     '5.2.6',
+459 silly addNameRange     '5.2.7',
+459 silly addNameRange     '5.2.9',
+459 silly addNameRange     '5.2.10',
+459 silly addNameRange     '5.2.11',
+459 silly addNameRange     '5.2.12',
+459 silly addNameRange     '5.2.13',
+459 silly addNameRange     '5.2.14',
+459 silly addNameRange     '5.2.15',
+459 silly addNameRange     '5.2.16',
+459 silly addNameRange     '5.2.17',
+459 silly addNameRange     '5.3.0',
+459 silly addNameRange     '5.3.1',
+459 silly addNameRange     '5.3.2',
+459 silly addNameRange     '5.3.3',
+459 silly addNameRange     '5.4.0',
+459 silly addNameRange     '5.4.1',
+459 silly addNameRange     '5.4.2',
+459 silly addNameRange     '5.4.3',
+459 silly addNameRange     '5.4.4',
+459 silly addNameRange     '5.4.5',
+459 silly addNameRange     '5.4.6',
+459 silly addNameRange     '5.4.7',
+459 silly addNameRange     '5.5.0',
+459 silly addNameRange     '5.5.1',
+459 silly addNameRange     '5.5.2',
+459 silly addNameRange     '5.5.3',
+459 silly addNameRange     '5.5.4',
+459 silly addNameRange     '5.5.5',
+459 silly addNameRange     '5.5.6',
+459 silly addNameRange     '5.5.7',
+459 silly addNameRange     '5.5.8',
+459 silly addNameRange     '5.6.1',
+459 silly addNameRange     '5.6.2',
+459 silly addNameRange     '5.6.3',
+459 silly addNameRange     '5.6.4',
+459 silly addNameRange     '5.6.5',
+459 silly addNameRange     '5.6.6',
+459 silly addNameRange     '5.6.7',
+459 silly addNameRange     '5.6.10',
+459 silly addNameRange     '5.6.11',
+459 silly addNameRange     '5.6.12',
+459 silly addNameRange     '5.6.14',
+459 silly addNameRange     '5.6.23',
+459 silly addNameRange     '5.8.2',
+459 silly addNameRange     '5.8.3',
+459 silly addNameRange     '5.8.5',
+459 silly addNameRange     '5.8.6',
+459 silly addNameRange     '5.8.8',
+459 silly addNameRange     '5.8.9',
+459 silly addNameRange     '5.8.12',
+459 silly addNameRange     '5.8.19',
+459 silly addNameRange     '5.8.20',
+459 silly addNameRange     '5.8.21',
+459 silly addNameRange     '5.8.23',
+459 silly addNameRange     '5.8.29',
+459 silly addNameRange     '6.0.0',
+459 silly addNameRange     '6.0.2',
+459 silly addNameRange     '6.0.12',
+459 silly addNameRange     '6.0.14',
+459 silly addNameRange     '6.0.15',
+459 silly addNameRange     '5.8.34',
+459 silly addNameRange     '6.1.5',
+459 silly addNameRange     '6.1.6',
+459 silly addNameRange     '6.1.7',
+459 silly addNameRange     '6.1.8',
+459 silly addNameRange     '6.1.9',
+459 silly addNameRange     '6.1.10',
+459 silly addNameRange     '6.1.11',
+459 silly addNameRange     '6.1.12',
+459 silly addNameRange     '6.1.13',
+459 silly addNameRange     '6.1.14',
+459 silly addNameRange     '6.1.15',
+459 silly addNameRange     '6.1.16',
+459 silly addNameRange     '6.1.17',
+459 silly addNameRange     '6.1.18',
+459 silly addNameRange     '6.2.4',
+459 silly addNameRange     '6.3.13',
+459 silly addNameRange     '6.3.26',
+459 silly addNameRange     '5.8.35',
+459 silly addNameRange     '6.5.0',
+459 silly addNameRange     '6.5.0-1',
+459 silly addNameRange     '6.5.1',
+459 silly addNameRange     '6.5.2',
+459 silly addNameRange     '5.8.38' ] ]
+460 silly addNamed babel@5.8.38
+461 verbose addNamed "5.8.38" is a plain semver version for babel
+462 silly cache afterAdd browserify@11.2.0
+463 verbose afterAdd C:\Users\Dragovic\AppData\Roaming\npm-cache\browserify\11.2.0\package\package.json not in flight; writing
+464 verbose correctMkdir C:\Users\Dragovic\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+465 http 304 https://registry.npmjs.org/react-addons-test-utils
+466 verbose headers { date: 'Sat, 08 Oct 2016 20:37:51 GMT',
+466 verbose headers   via: '1.1 varnish',
+466 verbose headers   'cache-control': 'max-age=300',
+466 verbose headers   etag: '"9T8SK136AM9SIQJWURKIL6X76"',
+466 verbose headers   age: '141',
+466 verbose headers   connection: 'keep-alive',
+466 verbose headers   'x-served-by': 'cache-cdg8725-CDG',
+466 verbose headers   'x-cache': 'HIT',
+466 verbose headers   'x-cache-hits': '1',
+466 verbose headers   'x-timer': 'S1475959071.270920,VS0,VE0',
+466 verbose headers   vary: 'Accept-Encoding' }
+467 silly get cb [ 304,
+467 silly get   { date: 'Sat, 08 Oct 2016 20:37:51 GMT',
+467 silly get     via: '1.1 varnish',
+467 silly get     'cache-control': 'max-age=300',
+467 silly get     etag: '"9T8SK136AM9SIQJWURKIL6X76"',
+467 silly get     age: '141',
+467 silly get     connection: 'keep-alive',
+467 silly get     'x-served-by': 'cache-cdg8725-CDG',
+467 silly get     'x-cache': 'HIT',
+467 silly get     'x-cache-hits': '1',
+467 silly get     'x-timer': 'S1475959071.270920,VS0,VE0',
+467 silly get     vary: 'Accept-Encoding' } ]
+468 verbose etag https://registry.npmjs.org/react-addons-test-utils from cache
+469 verbose get saving react-addons-test-utils to C:\Users\Dragovic\AppData\Roaming\npm-cache\registry.npmjs.org\react-addons-test-utils\.cache.json
+470 verbose correctMkdir C:\Users\Dragovic\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+471 silly cache afterAdd babel@5.8.38
+472 verbose afterAdd C:\Users\Dragovic\AppData\Roaming\npm-cache\babel\5.8.38\package\package.json not in flight; writing
+473 verbose correctMkdir C:\Users\Dragovic\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+474 verbose afterAdd C:\Users\Dragovic\AppData\Roaming\npm-cache\browserify\11.2.0\package\package.json written
+475 verbose afterAdd C:\Users\Dragovic\AppData\Roaming\npm-cache\babel\5.8.38\package\package.json written
+476 silly addNameRange number 2 { name: 'react-addons-test-utils',
+476 silly addNameRange   range: '>=15.1.0 <16.0.0',
+476 silly addNameRange   hasData: true }
+477 silly addNameRange versions [ 'react-addons-test-utils',
+477 silly addNameRange   [ '0.14.0-beta2',
+477 silly addNameRange     '0.14.0-beta3',
+477 silly addNameRange     '0.14.0-rc1',
+477 silly addNameRange     '0.14.0',
+477 silly addNameRange     '0.14.1',
+477 silly addNameRange     '0.14.2',
+477 silly addNameRange     '0.14.3',
+477 silly addNameRange     '0.14.4',
+477 silly addNameRange     '0.14.5',
+477 silly addNameRange     '0.14.6',
+477 silly addNameRange     '0.15.0-alpha.1',
+477 silly addNameRange     '0.14.7',
+477 silly addNameRange     '15.0.0-rc.1',
+477 silly addNameRange     '15.0.0-rc.2',
+477 silly addNameRange     '0.14.8',
+477 silly addNameRange     '15.0.0',
+477 silly addNameRange     '15.0.1',
+477 silly addNameRange     '15.0.2-alpha.1',
+477 silly addNameRange     '15.0.2-alpha.2',
+477 silly addNameRange     '15.0.2-alpha.3',
+477 silly addNameRange     '15.0.2-alpha.4',
+477 silly addNameRange     '15.0.2',
+477 silly addNameRange     '15.0.3-alpha.1',
+477 silly addNameRange     '15.0.3-alpha.2',
+477 silly addNameRange     '15.1.0-alpha.1',
+477 silly addNameRange     '15.1.0',
+477 silly addNameRange     '15.2.0-rc.1',
+477 silly addNameRange     '15.2.0-rc.2',
+477 silly addNameRange     '15.2.0',
+477 silly addNameRange     '15.2.1',
+477 silly addNameRange     '15.3.0-rc.1',
+477 silly addNameRange     '15.3.0-rc.2',
+477 silly addNameRange     '15.3.0-rc.3',
+477 silly addNameRange     '15.3.0',
+477 silly addNameRange     '15.3.1-rc.1',
+477 silly addNameRange     '15.3.1-rc.2',
+477 silly addNameRange     '15.3.1',
+477 silly addNameRange     '15.3.2-rc.1',
+477 silly addNameRange     '15.3.2',
+477 silly addNameRange     '15.4.0-rc.1',
+477 silly addNameRange     '15.4.0-rc.2' ] ]
+478 silly addNamed react-addons-test-utils@15.3.2
+479 verbose addNamed "15.3.2" is a plain semver version for react-addons-test-utils
+480 silly cache afterAdd react-addons-test-utils@15.3.2
+481 verbose afterAdd C:\Users\Dragovic\AppData\Roaming\npm-cache\react-addons-test-utils\15.3.2\package\package.json not in flight; writing
+482 verbose correctMkdir C:\Users\Dragovic\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+483 verbose afterAdd C:\Users\Dragovic\AppData\Roaming\npm-cache\react-addons-test-utils\15.3.2\package\package.json written
+484 http 304 https://registry.npmjs.org/jsdom
+485 verbose headers { date: 'Sat, 08 Oct 2016 20:37:51 GMT',
+485 verbose headers   via: '1.1 varnish',
+485 verbose headers   'cache-control': 'max-age=300',
+485 verbose headers   etag: '"6Y6YB0SMCAALANI5EJKTSPT4C"',
+485 verbose headers   age: '270',
+485 verbose headers   connection: 'keep-alive',
+485 verbose headers   'x-served-by': 'cache-cdg8730-CDG',
+485 verbose headers   'x-cache': 'HIT',
+485 verbose headers   'x-cache-hits': '2',
+485 verbose headers   'x-timer': 'S1475959071.291759,VS0,VE0',
+485 verbose headers   vary: 'Accept-Encoding' }
+486 silly get cb [ 304,
+486 silly get   { date: 'Sat, 08 Oct 2016 20:37:51 GMT',
+486 silly get     via: '1.1 varnish',
+486 silly get     'cache-control': 'max-age=300',
+486 silly get     etag: '"6Y6YB0SMCAALANI5EJKTSPT4C"',
+486 silly get     age: '270',
+486 silly get     connection: 'keep-alive',
+486 silly get     'x-served-by': 'cache-cdg8730-CDG',
+486 silly get     'x-cache': 'HIT',
+486 silly get     'x-cache-hits': '2',
+486 silly get     'x-timer': 'S1475959071.291759,VS0,VE0',
+486 silly get     vary: 'Accept-Encoding' } ]
+487 verbose etag https://registry.npmjs.org/jsdom from cache
+488 verbose get saving jsdom to C:\Users\Dragovic\AppData\Roaming\npm-cache\registry.npmjs.org\jsdom\.cache.json
+489 verbose correctMkdir C:\Users\Dragovic\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+490 http 304 https://registry.npmjs.org/workshopper-exercise
+491 verbose headers { date: 'Sat, 08 Oct 2016 20:37:51 GMT',
+491 verbose headers   via: '1.1 varnish',
+491 verbose headers   'cache-control': 'max-age=300',
+491 verbose headers   etag: '"9GBRVC5B6ARDBOFD65O0PG4US"',
+491 verbose headers   age: '142',
+491 verbose headers   connection: 'keep-alive',
+491 verbose headers   'x-served-by': 'cache-cdg8722-CDG',
+491 verbose headers   'x-cache': 'HIT',
+491 verbose headers   'x-cache-hits': '1',
+491 verbose headers   'x-timer': 'S1475959071.292374,VS0,VE0',
+491 verbose headers   vary: 'Accept-Encoding' }
+492 silly get cb [ 304,
+492 silly get   { date: 'Sat, 08 Oct 2016 20:37:51 GMT',
+492 silly get     via: '1.1 varnish',
+492 silly get     'cache-control': 'max-age=300',
+492 silly get     etag: '"9GBRVC5B6ARDBOFD65O0PG4US"',
+492 silly get     age: '142',
+492 silly get     connection: 'keep-alive',
+492 silly get     'x-served-by': 'cache-cdg8722-CDG',
+492 silly get     'x-cache': 'HIT',
+492 silly get     'x-cache-hits': '1',
+492 silly get     'x-timer': 'S1475959071.292374,VS0,VE0',
+492 silly get     vary: 'Accept-Encoding' } ]
+493 verbose etag https://registry.npmjs.org/workshopper-exercise from cache
+494 verbose get saving workshopper-exercise to C:\Users\Dragovic\AppData\Roaming\npm-cache\registry.npmjs.org\workshopper-exercise\.cache.json
+495 verbose correctMkdir C:\Users\Dragovic\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+496 http 304 https://registry.npmjs.org/concat-stream
+497 verbose headers { date: 'Sat, 08 Oct 2016 20:37:51 GMT',
+497 verbose headers   via: '1.1 varnish',
+497 verbose headers   'cache-control': 'max-age=300',
+497 verbose headers   etag: '"3N0FWDFEVI4ARVOZRW5DDRM0O"',
+497 verbose headers   age: '154',
+497 verbose headers   connection: 'keep-alive',
+497 verbose headers   'x-served-by': 'cache-cdg8720-CDG',
+497 verbose headers   'x-cache': 'HIT',
+497 verbose headers   'x-cache-hits': '1',
+497 verbose headers   'x-timer': 'S1475959071.292589,VS0,VE0',
+497 verbose headers   vary: 'Accept-Encoding' }
+498 silly get cb [ 304,
+498 silly get   { date: 'Sat, 08 Oct 2016 20:37:51 GMT',
+498 silly get     via: '1.1 varnish',
+498 silly get     'cache-control': 'max-age=300',
+498 silly get     etag: '"3N0FWDFEVI4ARVOZRW5DDRM0O"',
+498 silly get     age: '154',
+498 silly get     connection: 'keep-alive',
+498 silly get     'x-served-by': 'cache-cdg8720-CDG',
+498 silly get     'x-cache': 'HIT',
+498 silly get     'x-cache-hits': '1',
+498 silly get     'x-timer': 'S1475959071.292589,VS0,VE0',
+498 silly get     vary: 'Accept-Encoding' } ]
+499 verbose etag https://registry.npmjs.org/concat-stream from cache
+500 verbose get saving concat-stream to C:\Users\Dragovic\AppData\Roaming\npm-cache\registry.npmjs.org\concat-stream\.cache.json
+501 verbose correctMkdir C:\Users\Dragovic\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+502 http 304 https://registry.npmjs.org/workshopper-wrappedexec
+503 verbose headers { date: 'Sat, 08 Oct 2016 20:37:51 GMT',
+503 verbose headers   via: '1.1 varnish',
+503 verbose headers   'cache-control': 'max-age=300',
+503 verbose headers   etag: '"8PR7DAYV40ZLR4VIKG34WV1XD"',
+503 verbose headers   age: '142',
+503 verbose headers   connection: 'keep-alive',
+503 verbose headers   'x-served-by': 'cache-cdg8729-CDG',
+503 verbose headers   'x-cache': 'HIT',
+503 verbose headers   'x-cache-hits': '1',
+503 verbose headers   'x-timer': 'S1475959071.293984,VS0,VE0',
+503 verbose headers   vary: 'Accept-Encoding' }
+504 silly get cb [ 304,
+504 silly get   { date: 'Sat, 08 Oct 2016 20:37:51 GMT',
+504 silly get     via: '1.1 varnish',
+504 silly get     'cache-control': 'max-age=300',
+504 silly get     etag: '"8PR7DAYV40ZLR4VIKG34WV1XD"',
+504 silly get     age: '142',
+504 silly get     connection: 'keep-alive',
+504 silly get     'x-served-by': 'cache-cdg8729-CDG',
+504 silly get     'x-cache': 'HIT',
+504 silly get     'x-cache-hits': '1',
+504 silly get     'x-timer': 'S1475959071.293984,VS0,VE0',
+504 silly get     vary: 'Accept-Encoding' } ]
+505 verbose etag https://registry.npmjs.org/workshopper-wrappedexec from cache
+506 verbose get saving workshopper-wrappedexec to C:\Users\Dragovic\AppData\Roaming\npm-cache\registry.npmjs.org\workshopper-wrappedexec\.cache.json
+507 verbose correctMkdir C:\Users\Dragovic\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+508 http 304 https://registry.npmjs.org/envify
+509 verbose headers { date: 'Sat, 08 Oct 2016 20:37:51 GMT',
+509 verbose headers   via: '1.1 varnish',
+509 verbose headers   'cache-control': 'max-age=300',
+509 verbose headers   etag: '"6LMP18IVQN1LYQHEJQYYUN4ND"',
+509 verbose headers   age: '142',
+509 verbose headers   connection: 'keep-alive',
+509 verbose headers   'x-served-by': 'cache-cdg8732-CDG',
+509 verbose headers   'x-cache': 'HIT',
+509 verbose headers   'x-cache-hits': '1',
+509 verbose headers   'x-timer': 'S1475959071.293595,VS0,VE0',
+509 verbose headers   vary: 'Accept-Encoding' }
+510 silly get cb [ 304,
+510 silly get   { date: 'Sat, 08 Oct 2016 20:37:51 GMT',
+510 silly get     via: '1.1 varnish',
+510 silly get     'cache-control': 'max-age=300',
+510 silly get     etag: '"6LMP18IVQN1LYQHEJQYYUN4ND"',
+510 silly get     age: '142',
+510 silly get     connection: 'keep-alive',
+510 silly get     'x-served-by': 'cache-cdg8732-CDG',
+510 silly get     'x-cache': 'HIT',
+510 silly get     'x-cache-hits': '1',
+510 silly get     'x-timer': 'S1475959071.293595,VS0,VE0',
+510 silly get     vary: 'Accept-Encoding' } ]
+511 verbose etag https://registry.npmjs.org/envify from cache
+512 verbose get saving envify to C:\Users\Dragovic\AppData\Roaming\npm-cache\registry.npmjs.org\envify\.cache.json
+513 verbose correctMkdir C:\Users\Dragovic\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+514 http 304 https://registry.npmjs.org/mocha
+515 verbose headers { date: 'Sat, 08 Oct 2016 20:37:51 GMT',
+515 verbose headers   via: '1.1 varnish',
+515 verbose headers   'cache-control': 'max-age=300',
+515 verbose headers   etag: '"81R382D2RNXE71VFCIWDMAWDA"',
+515 verbose headers   age: '167',
+515 verbose headers   connection: 'keep-alive',
+515 verbose headers   'x-served-by': 'cache-cdg8729-CDG',
+515 verbose headers   'x-cache': 'HIT',
+515 verbose headers   'x-cache-hits': '1',
+515 verbose headers   'x-timer': 'S1475959071.295764,VS0,VE1',
+515 verbose headers   vary: 'Accept-Encoding' }
+516 silly get cb [ 304,
+516 silly get   { date: 'Sat, 08 Oct 2016 20:37:51 GMT',
+516 silly get     via: '1.1 varnish',
+516 silly get     'cache-control': 'max-age=300',
+516 silly get     etag: '"81R382D2RNXE71VFCIWDMAWDA"',
+516 silly get     age: '167',
+516 silly get     connection: 'keep-alive',
+516 silly get     'x-served-by': 'cache-cdg8729-CDG',
+516 silly get     'x-cache': 'HIT',
+516 silly get     'x-cache-hits': '1',
+516 silly get     'x-timer': 'S1475959071.295764,VS0,VE1',
+516 silly get     vary: 'Accept-Encoding' } ]
+517 verbose etag https://registry.npmjs.org/mocha from cache
+518 verbose get saving mocha to C:\Users\Dragovic\AppData\Roaming\npm-cache\registry.npmjs.org\mocha\.cache.json
+519 verbose correctMkdir C:\Users\Dragovic\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+520 http 304 https://registry.npmjs.org/react
+521 verbose headers { date: 'Sat, 08 Oct 2016 20:37:51 GMT',
+521 verbose headers   via: '1.1 varnish',
+521 verbose headers   'cache-control': 'max-age=300',
+521 verbose headers   etag: '"2TGQSKC7SBXK7GTYPWF19RKH3"',
+521 verbose headers   age: '141',
+521 verbose headers   connection: 'keep-alive',
+521 verbose headers   'x-served-by': 'cache-cdg8720-CDG',
+521 verbose headers   'x-cache': 'HIT',
+521 verbose headers   'x-cache-hits': '1',
+521 verbose headers   'x-timer': 'S1475959071.321112,VS0,VE0',
+521 verbose headers   vary: 'Accept-Encoding' }
+522 silly get cb [ 304,
+522 silly get   { date: 'Sat, 08 Oct 2016 20:37:51 GMT',
+522 silly get     via: '1.1 varnish',
+522 silly get     'cache-control': 'max-age=300',
+522 silly get     etag: '"2TGQSKC7SBXK7GTYPWF19RKH3"',
+522 silly get     age: '141',
+522 silly get     connection: 'keep-alive',
+522 silly get     'x-served-by': 'cache-cdg8720-CDG',
+522 silly get     'x-cache': 'HIT',
+522 silly get     'x-cache-hits': '1',
+522 silly get     'x-timer': 'S1475959071.321112,VS0,VE0',
+522 silly get     vary: 'Accept-Encoding' } ]
+523 verbose etag https://registry.npmjs.org/react from cache
+524 verbose get saving react to C:\Users\Dragovic\AppData\Roaming\npm-cache\registry.npmjs.org\react\.cache.json
+525 verbose correctMkdir C:\Users\Dragovic\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+526 silly addNameRange number 2 { name: 'workshopper-exercise',
+526 silly addNameRange   range: '>=0.2.3 <0.3.0',
+526 silly addNameRange   hasData: true }
+527 silly addNameRange versions [ 'workshopper-exercise',
+527 silly addNameRange   [ '0.0.0',
+527 silly addNameRange     '0.0.1',
+527 silly addNameRange     '0.0.2',
+527 silly addNameRange     '0.0.3',
+527 silly addNameRange     '0.0.4',
+527 silly addNameRange     '0.0.5',
+527 silly addNameRange     '0.0.6',
+527 silly addNameRange     '0.1.0',
+527 silly addNameRange     '0.2.0',
+527 silly addNameRange     '0.2.1',
+527 silly addNameRange     '0.2.2',
+527 silly addNameRange     '0.2.3',
+527 silly addNameRange     '1.0.0',
+527 silly addNameRange     '1.1.0',
+527 silly addNameRange     '2.0.0',
+527 silly addNameRange     '2.1.0',
+527 silly addNameRange     '2.2.0',
+527 silly addNameRange     '2.3.0',
+527 silly addNameRange     '2.4.0',
+527 silly addNameRange     '2.5.0',
+527 silly addNameRange     '2.5.1',
+527 silly addNameRange     '2.5.2',
+527 silly addNameRange     '2.5.3',
+527 silly addNameRange     '2.6.0',
+527 silly addNameRange     '2.6.1',
+527 silly addNameRange     '2.6.2',
+527 silly addNameRange     '2.7.0' ] ]
+528 silly addNamed workshopper-exercise@0.2.3
+529 verbose addNamed "0.2.3" is a plain semver version for workshopper-exercise
+530 silly addNameRange number 2 { name: 'jsdom', range: '>=7.0.2 <8.0.0', hasData: true }
+531 silly addNameRange versions [ 'jsdom',
+531 silly addNameRange   [ '0.0.1',
+531 silly addNameRange     '0.1.2',
+531 silly addNameRange     '0.1.4',
+531 silly addNameRange     '0.1.5',
+531 silly addNameRange     '0.1.6',
+531 silly addNameRange     '0.1.7',
+531 silly addNameRange     '0.1.8',
+531 silly addNameRange     '0.1.9',
+531 silly addNameRange     '0.1.10',
+531 silly addNameRange     '0.1.11',
+531 silly addNameRange     '0.1.12',
+531 silly addNameRange     '0.1.13',
+531 silly addNameRange     '0.1.15',
+531 silly addNameRange     '0.1.16',
+531 silly addNameRange     '0.1.17',
+531 silly addNameRange     '0.1.18',
+531 silly addNameRange     '0.1.19',
+531 silly addNameRange     '0.1.20',
+531 silly addNameRange     '0.1.21',
+531 silly addNameRange     '0.1.22',
+531 silly addNameRange     '0.1.23',
+531 silly addNameRange     '0.2.0',
+531 silly addNameRange     '0.2.1',
+531 silly addNameRange     '0.2.2',
+531 silly addNameRange     '0.2.3',
+531 silly addNameRange     '0.2.4',
+531 silly addNameRange     '0.2.5',
+531 silly addNameRange     '0.2.6',
+531 silly addNameRange     '0.2.7',
+531 silly addNameRange     '0.2.8',
+531 silly addNameRange     '0.2.9',
+531 silly addNameRange     '0.2.10',
+531 silly addNameRange     '0.2.11',
+531 silly addNameRange     '0.2.12',
+531 silly addNameRange     '0.2.13',
+531 silly addNameRange     '0.2.14',
+531 silly addNameRange     '0.2.15',
+531 silly addNameRange     '0.2.16',
+531 silly addNameRange     '0.2.17',
+531 silly addNameRange     '0.2.18',
+531 silly addNameRange     '0.2.19',
+531 silly addNameRange     '0.3.0',
+531 silly addNameRange     '0.3.1',
+531 silly addNameRange     '0.3.2',
+531 silly addNameRange     '0.3.3',
+531 silly addNameRange     '0.3.4',
+531 silly addNameRange     '0.4.0',
+531 silly addNameRange     '0.4.1',
+531 silly addNameRange     '0.4.2',
+531 silly addNameRange     '0.5.0',
+531 silly addNameRange     '0.5.1',
+531 silly addNameRange     '0.5.2',
+531 silly addNameRange     '0.5.3',
+531 silly addNameRange     '0.5.4',
+531 silly addNameRange     '0.5.5',
+531 silly addNameRange     '0.5.6',
+531 silly addNameRange     '0.5.7',
+531 silly addNameRange     '0.6.0',
+531 silly addNameRange     '0.6.1',
+531 silly addNameRange     '0.6.2',
+531 silly addNameRange     '0.6.3',
+531 silly addNameRange     '0.6.4',
+531 silly addNameRange     '0.6.5',
+531 silly addNameRange     '0.7.0',
+531 silly addNameRange     '0.8.0',
+531 silly addNameRange     '0.8.1',
+531 silly addNameRange     '0.8.2',
+531 silly addNameRange     '0.8.3',
+531 silly addNameRange     '0.8.4',
+531 silly addNameRange     '0.8.5',
+531 silly addNameRange     '0.8.6',
+531 silly addNameRange     '0.8.7',
+531 silly addNameRange     '0.8.8',
+531 silly addNameRange     '0.8.9',
+531 silly addNameRange     '0.8.10',
+531 silly addNameRange     '0.8.11',
+531 silly addNameRange     '0.9.0',
+531 silly addNameRange     '0.10.0',
+531 silly addNameRange     '0.10.1',
+531 silly addNameRange     '0.10.2',
+531 silly addNameRange     '0.10.3',
+531 silly addNameRange     '0.10.4',
+531 silly addNameRange     '0.10.5',
+531 silly addNameRange     '0.10.6',
+531 silly addNameRange     '0.11.0',
+531 silly addNameRange     '0.11.1',
+531 silly addNameRange     '1.0.0-pre.1',
+531 silly addNameRange     '1.0.0-pre.3',
+531 silly addNameRange     '1.0.0-pre.4',
+531 silly addNameRange     '1.0.0-pre.5',
+531 silly addNameRange     '1.0.0-pre.6',
+531 silly addNameRange     '1.0.0-pre.7',
+531 silly addNameRange     '1.0.0',
+531 silly addNameRange     '1.0.1',
+531 silly addNameRange     '1.0.2',
+531 silly addNameRange     '1.0.3',
+531 silly addNameRange     '1.1.0',
+531 silly addNameRange     '1.2.0',
+531 silly addNameRange     '1.2.1',
+531 silly addNameRange     '1.2.2',
+531 silly addNameRange     '1.2.3',
+531 silly addNameRange     '1.3.0',
+531 silly addNameRange     '1.3.1',
+531 silly addNameRange     '1.3.2',
+531 silly addNameRange     '1.4.0',
+531 silly addNameRange     '1.4.1',
+531 silly addNameRange     '1.5.0',
+531 silly addNameRange     '2.0.0',
+531 silly addNameRange     '3.0.0',
+531 silly addNameRange     '3.0.1',
+531 silly addNameRange     '3.0.2',
+531 silly addNameRange     '3.0.3',
+531 silly addNameRange     '3.1.0',
+531 silly addNameRange     '3.1.1',
+531 silly addNameRange     '3.1.2',
+531 silly addNameRange     '4.0.0',
+531 silly addNameRange     '4.0.1',
+531 silly addNameRange     '4.0.2',
+531 silly addNameRange     '4.0.3',
+531 silly addNameRange     '4.0.4',
+531 silly addNameRange     '4.0.5',
+531 silly addNameRange     '4.1.0',
+531 silly addNameRange     '4.2.0',
+531 silly addNameRange     '4.3.0',
+531 silly addNameRange     '4.4.0',
+531 silly addNameRange     '4.5.0',
+531 silly addNameRange     '4.5.1',
+531 silly addNameRange     '5.0.0',
+531 silly addNameRange     '5.0.1',
+531 silly addNameRange     '4.5.2',
+531 silly addNameRange     '5.1.0',
+531 silly addNameRange     '5.2.0',
+531 silly addNameRange     '5.3.0',
+531 silly addNameRange     '5.4.0',
+531 silly addNameRange     '5.4.1',
+531 silly addNameRange     '5.4.2',
+531 silly addNameRange     '5.4.3',
+531 silly addNameRange     '5.5.0',
+531 silly addNameRange     '5.6.0',
+531 silly addNameRange     '5.6.1',
+531 silly addNameRange     '6.0.0',
+531 silly addNameRange     '6.0.1',
+531 silly addNameRange     '6.1.0',
+531 silly addNameRange     '6.2.0',
+531 silly addNameRange     '6.3.0',
+531 silly addNameRange     '6.4.0',
+531 silly addNameRange     '6.5.0',
+531 silly addNameRange     '6.5.1',
+531 silly addNameRange     '7.0.0',
+531 silly addNameRange     '7.0.1',
+531 silly addNameRange     '7.0.2',
+531 silly addNameRange     '7.1.0',
+531 silly addNameRange     '7.1.1',
+531 silly addNameRange     '7.2.0',
+531 silly addNameRange     '7.2.1',
+531 silly addNameRange     '7.2.2',
+531 silly addNameRange     '8.0.0-0',
+531 silly addNameRange     '8.0.0',
+531 silly addNameRange     '8.0.1',
+531 silly addNameRange     '8.0.2',
+531 silly addNameRange     '8.0.3',
+531 silly addNameRange     '8.0.4',
+531 silly addNameRange     '8.1.0',
+531 silly addNameRange     '8.2.0',
+531 silly addNameRange     '8.3.0',
+531 silly addNameRange     '8.3.1',
+531 silly addNameRange     '8.4.0',
+531 silly addNameRange     '8.4.1',
+531 silly addNameRange     '8.5.0',
+531 silly addNameRange     '9.0.0',
+531 silly addNameRange     '9.1.0',
+531 silly addNameRange     '9.2.0',
+531 silly addNameRange     '9.2.1',
+531 silly addNameRange     '9.3.0',
+531 silly addNameRange     '9.4.0',
+531 silly addNameRange     '9.4.1',
+531 silly addNameRange     '9.4.2',
+531 silly addNameRange     '9.4.3',
+531 silly addNameRange     '9.4.4',
+531 silly addNameRange     '9.4.5',
+531 silly addNameRange     '9.5.0',
+531 silly addNameRange     '9.6.0' ] ]
+532 silly addNamed jsdom@7.2.2
+533 verbose addNamed "7.2.2" is a plain semver version for jsdom
+534 silly addNameRange number 2 { name: 'concat-stream', range: '>=1.4.5 <2.0.0', hasData: true }
+535 silly addNameRange versions [ 'concat-stream',
+535 silly addNameRange   [ '0.0.1',
+535 silly addNameRange     '0.0.2',
+535 silly addNameRange     '0.0.3',
+535 silly addNameRange     '0.0.4',
+535 silly addNameRange     '0.0.5',
+535 silly addNameRange     '0.0.6',
+535 silly addNameRange     '0.0.7',
+535 silly addNameRange     '0.0.8',
+535 silly addNameRange     '0.0.9',
+535 silly addNameRange     '0.1.0',
+535 silly addNameRange     '0.1.1',
+535 silly addNameRange     '1.0.0',
+535 silly addNameRange     '1.0.1',
+535 silly addNameRange     '1.1.0',
+535 silly addNameRange     '1.2.0',
+535 silly addNameRange     '1.2.1',
+535 silly addNameRange     '1.3.0',
+535 silly addNameRange     '1.3.1',
+535 silly addNameRange     '1.4.0',
+535 silly addNameRange     '1.4.1',
+535 silly addNameRange     '1.4.2',
+535 silly addNameRange     '1.4.3',
+535 silly addNameRange     '1.4.4',
+535 silly addNameRange     '1.4.5',
+535 silly addNameRange     '1.4.6',
+535 silly addNameRange     '1.4.7',
+535 silly addNameRange     '1.4.8',
+535 silly addNameRange     '1.4.10',
+535 silly addNameRange     '1.5.0',
+535 silly addNameRange     '1.5.1',
+535 silly addNameRange     '1.5.2' ] ]
+536 silly addNamed concat-stream@1.5.2
+537 verbose addNamed "1.5.2" is a plain semver version for concat-stream
+538 silly addNameRange number 2 { name: 'envify', range: '>=1.2.1 <2.0.0', hasData: true }
+539 silly addNameRange versions [ 'envify',
+539 silly addNameRange   [ '0.0.1',
+539 silly addNameRange     '0.1.0',
+539 silly addNameRange     '0.2.0',
+539 silly addNameRange     '1.0.0',
+539 silly addNameRange     '1.0.1',
+539 silly addNameRange     '1.1.0',
+539 silly addNameRange     '1.2.0',
+539 silly addNameRange     '1.2.1',
+539 silly addNameRange     '2.0.0',
+539 silly addNameRange     '2.0.1',
+539 silly addNameRange     '3.0.0',
+539 silly addNameRange     '3.1.0',
+539 silly addNameRange     '3.2.0',
+539 silly addNameRange     '3.3.0',
+539 silly addNameRange     '3.3.1',
+539 silly addNameRange     '3.4.0',
+539 silly addNameRange     '3.4.1' ] ]
+540 silly addNamed envify@1.2.1
+541 verbose addNamed "1.2.1" is a plain semver version for envify
+542 silly addNameRange number 2 { name: 'mocha', range: '>=1.19.0 <2.0.0', hasData: true }
+543 silly addNameRange versions [ 'mocha',
+543 silly addNameRange   [ '0.0.1-alpha1',
+543 silly addNameRange     '0.0.1-alpha2',
+543 silly addNameRange     '0.0.1-alpha3',
+543 silly addNameRange     '0.0.1-alpha4',
+543 silly addNameRange     '0.0.1-alpha5',
+543 silly addNameRange     '0.0.1-alpha6',
+543 silly addNameRange     '0.0.1',
+543 silly addNameRange     '0.0.2',
+543 silly addNameRange     '0.0.3',
+543 silly addNameRange     '0.0.4',
+543 silly addNameRange     '0.0.5',
+543 silly addNameRange     '0.0.6',
+543 silly addNameRange     '0.0.7',
+543 silly addNameRange     '0.0.8',
+543 silly addNameRange     '0.1.0',
+543 silly addNameRange     '0.2.0',
+543 silly addNameRange     '0.3.0',
+543 silly addNameRange     '0.3.1',
+543 silly addNameRange     '0.3.2',
+543 silly addNameRange     '0.3.3',
+543 silly addNameRange     '0.3.4',
+543 silly addNameRange     '0.3.6',
+543 silly addNameRange     '0.4.0',
+543 silly addNameRange     '0.5.0',
+543 silly addNameRange     '0.6.0',
+543 silly addNameRange     '0.7.0',
+543 silly addNameRange     '0.7.1',
+543 silly addNameRange     '0.8.0',
+543 silly addNameRange     '0.8.1',
+543 silly addNameRange     '0.9.0',
+543 silly addNameRange     '0.10.0',
+543 silly addNameRange     '0.10.1',
+543 silly addNameRange     '0.10.2',
+543 silly addNameRange     '0.11.0',
+543 silly addNameRange     '0.12.0',
+543 silly addNameRange     '0.12.1',
+543 silly addNameRange     '0.13.0',
+543 silly addNameRange     '0.14.0',
+543 silly addNameRange     '0.14.1',
+543 silly addNameRange     '1.0.0',
+543 silly addNameRange     '1.0.1',
+543 silly addNameRange     '1.0.2',
+543 silly addNameRange     '1.0.3',
+543 silly addNameRange     '1.1.0',
+543 silly addNameRange     '1.2.0',
+543 silly addNameRange     '1.2.1',
+543 silly addNameRange     '1.2.2',
+543 silly addNameRange     '1.3.0',
+543 silly addNameRange     '1.3.1',
+543 silly addNameRange     '1.3.2',
+543 silly addNameRange     '1.4.0',
+543 silly addNameRange     '1.4.1',
+543 silly addNameRange     '1.4.2',
+543 silly addNameRange     '1.4.3',
+543 silly addNameRange     '1.5.0',
+543 silly addNameRange     '1.6.0',
+543 silly addNameRange     '1.7.0',
+543 silly addNameRange     '1.7.1',
+543 silly addNameRange     '1.7.2',
+543 silly addNameRange     '1.7.3',
+543 silly addNameRange     '1.7.4',
+543 silly addNameRange     '1.8.0',
+543 silly addNameRange     '1.8.1',
+543 silly addNameRange     '1.8.2',
+543 silly addNameRange     '1.9.0',
+543 silly addNameRange     '1.10.0',
+543 silly addNameRange     '1.11.0',
+543 silly addNameRange     '1.12.0',
+543 silly addNameRange     '1.12.1',
+543 silly addNameRange     '1.13.0',
+543 silly addNameRange     '1.14.0',
+543 silly addNameRange     '1.15.0',
+543 silly addNameRange     '1.15.1',
+543 silly addNameRange     '1.16.0',
+543 silly addNameRange     '1.16.1',
+543 silly addNameRange     '1.16.2',
+543 silly addNameRange     '1.17.0',
+543 silly addNameRange     '1.17.1',
+543 silly addNameRange     '1.18.0',
+543 silly addNameRange     '1.18.1',
+543 silly addNameRange     '1.18.2',
+543 silly addNameRange     '1.19.0',
+543 silly addNameRange     '1.20.0',
+543 silly addNameRange     '1.20.1',
+543 silly addNameRange     '1.21.0',
+543 silly addNameRange     '1.21.1',
+543 silly addNameRange     '1.21.2',
+543 silly addNameRange     '1.21.3',
+543 silly addNameRange     '1.21.4',
+543 silly addNameRange     '1.21.5',
+543 silly addNameRange     '2.0.0',
+543 silly addNameRange     '2.0.1',
+543 silly addNameRange     '2.1.0',
+543 silly addNameRange     '2.2.0',
+543 silly addNameRange     '2.2.1',
+543 silly addNameRange     '2.2.3',
+543 silly addNameRange     '2.2.4',
+543 silly addNameRange     '2.2.5',
+543 silly addNameRange     '2.3.0',
+543 silly addNameRange     '2.3.1',
+543 silly addNameRange     '2.3.2',
+543 silly addNameRange     '2.3.3',
+543 silly addNameRange     '2.3.4',
+543 silly addNameRange     '2.4.1',
+543 silly addNameRange     '2.4.2',
+543 silly addNameRange     '2.4.3',
+543 silly addNameRange     '2.4.4',
+543 silly addNameRange     '2.4.5',
+543 silly addNameRange     '2.5.0',
+543 silly addNameRange     '2.5.1',
+543 silly addNameRange     '2.5.2',
+543 silly addNameRange     '2.5.3',
+543 silly addNameRange     '3.0.0-0',
+543 silly addNameRange     '3.0.0-1',
+543 silly addNameRange     '3.0.0-2',
+543 silly addNameRange     '3.0.0',
+543 silly addNameRange     '3.0.1',
+543 silly addNameRange     '3.0.2',
+543 silly addNameRange     '3.1.0' ] ]
+544 silly addNamed mocha@1.21.5
+545 verbose addNamed "1.21.5" is a plain semver version for mocha
+546 silly addNameRange number 2 { name: 'workshopper-wrappedexec',
+546 silly addNameRange   range: '>=0.1.1 <0.2.0',
+546 silly addNameRange   hasData: true }
+547 silly addNameRange versions [ 'workshopper-wrappedexec',
+547 silly addNameRange   [ '0.0.1', '0.0.2', '0.0.3', '0.0.4', '0.1.0', '0.1.1', '0.1.2' ] ]
+548 silly addNamed workshopper-wrappedexec@0.1.2
+549 verbose addNamed "0.1.2" is a plain semver version for workshopper-wrappedexec
+550 silly addNameRange number 2 { name: 'react', range: '>=15.1.0 <16.0.0', hasData: true }
+551 silly addNameRange versions [ 'react',
+551 silly addNameRange   [ '0.0.1',
+551 silly addNameRange     '0.0.2',
+551 silly addNameRange     '0.0.3',
+551 silly addNameRange     '0.1.2',
+551 silly addNameRange     '0.2.0',
+551 silly addNameRange     '0.2.1',
+551 silly addNameRange     '0.2.2',
+551 silly addNameRange     '0.2.3',
+551 silly addNameRange     '0.2.4',
+551 silly addNameRange     '0.2.5',
+551 silly addNameRange     '0.2.6',
+551 silly addNameRange     '0.3.0',
+551 silly addNameRange     '0.3.4',
+551 silly addNameRange     '0.3.5',
+551 silly addNameRange     '0.5.0',
+551 silly addNameRange     '0.5.1',
+551 silly addNameRange     '0.5.2',
+551 silly addNameRange     '0.6.0',
+551 silly addNameRange     '0.6.1',
+551 silly addNameRange     '0.6.2',
+551 silly addNameRange     '0.6.3',
+551 silly addNameRange     '0.7.0',
+551 silly addNameRange     '0.7.1',
+551 silly addNameRange     '0.8.0',
+551 silly addNameRange     '0.9.0-rc1',
+551 silly addNameRange     '0.9.0',
+551 silly addNameRange     '0.10.0-rc1',
+551 silly addNameRange     '0.10.0',
+551 silly addNameRange     '0.11.0-rc1',
+551 silly addNameRange     '0.11.0',
+551 silly addNameRange     '0.11.1',
+551 silly addNameRange     '0.11.2',
+551 silly addNameRange     '0.12.0-rc1',
+551 silly addNameRange     '0.12.0',
+551 silly addNameRange     '0.12.1',
+551 silly addNameRange     '0.12.2',
+551 silly addNameRange     '0.13.0-alpha.1',
+551 silly addNameRange     '0.13.0-alpha.2',
+551 silly addNameRange     '0.13.0-beta.1',
+551 silly addNameRange     '0.13.0-beta.2',
+551 silly addNameRange     '0.13.0-rc1',
+551 silly addNameRange     '0.13.0-rc2',
+551 silly addNameRange     '0.13.0',
+551 silly addNameRange     '0.13.1',
+551 silly addNameRange     '0.13.2',
+551 silly addNameRange     '0.13.3',
+551 silly addNameRange     '0.14.0-alpha1',
+551 silly addNameRange     '0.14.0-alpha2',
+551 silly addNameRange     '0.14.0-alpha3',
+551 silly addNameRange     '0.14.0-beta1',
+551 silly addNameRange     '0.14.0-beta2',
+551 silly addNameRange     '0.14.0-beta3',
+551 silly addNameRange     '0.14.0-rc1',
+551 silly addNameRange     '0.14.0',
+551 silly addNameRange     '0.14.1',
+551 silly addNameRange     '0.14.2',
+551 silly addNameRange     '0.14.3',
+551 silly addNameRange     '0.14.4',
+551 silly addNameRange     '0.14.5',
+551 silly addNameRange     '0.14.6',
+551 silly addNameRange     '0.15.0-alpha.1',
+551 silly addNameRange     '0.14.7',
+551 silly addNameRange     '15.0.0-rc.1',
+551 silly addNameRange     '15.0.0-rc.2',
+551 silly addNameRange     '0.14.8',
+551 silly addNameRange     '15.0.0',
+551 silly addNameRange     '15.0.1',
+551 silly addNameRange     '15.0.2-alpha.1',
+551 silly addNameRange     '15.0.2-alpha.2',
+551 silly addNameRange     '15.0.2-alpha.3',
+551 silly addNameRange     '15.0.2-alpha.4',
+551 silly addNameRange     '15.0.2',
+551 silly addNameRange     '15.0.3-alpha.1',
+551 silly addNameRange     '15.0.3-alpha.2',
+551 silly addNameRange     '15.1.0-alpha.1',
+551 silly addNameRange     '15.1.0',
+551 silly addNameRange     '15.2.0-rc.1',
+551 silly addNameRange     '15.2.0-rc.2',
+551 silly addNameRange     '15.2.0',
+551 silly addNameRange     '15.2.1',
+551 silly addNameRange     '15.3.0-rc.1',
+551 silly addNameRange     '15.3.0-rc.2',
+551 silly addNameRange     '15.3.0-rc.3',
+551 silly addNameRange     '15.3.0',
+551 silly addNameRange     '15.3.1-rc.1',
+551 silly addNameRange     '15.3.1-rc.2',
+551 silly addNameRange     '15.3.1',
+551 silly addNameRange     '15.3.2-rc.1',
+551 silly addNameRange     '15.3.2',
+551 silly addNameRange     '15.4.0-rc.1',
+551 silly addNameRange     '15.4.0-rc.2' ] ]
+552 silly addNamed react@15.3.2
+553 verbose addNamed "15.3.2" is a plain semver version for react
+554 silly cache afterAdd workshopper-exercise@0.2.3
+555 verbose afterAdd C:\Users\Dragovic\AppData\Roaming\npm-cache\workshopper-exercise\0.2.3\package\package.json not in flight; writing
+556 verbose correctMkdir C:\Users\Dragovic\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+557 silly cache afterAdd jsdom@7.2.2
+558 verbose afterAdd C:\Users\Dragovic\AppData\Roaming\npm-cache\jsdom\7.2.2\package\package.json not in flight; writing
+559 verbose correctMkdir C:\Users\Dragovic\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+560 silly cache afterAdd concat-stream@1.5.2
+561 verbose afterAdd C:\Users\Dragovic\AppData\Roaming\npm-cache\concat-stream\1.5.2\package\package.json not in flight; writing
+562 verbose correctMkdir C:\Users\Dragovic\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+563 silly cache afterAdd envify@1.2.1
+564 verbose afterAdd C:\Users\Dragovic\AppData\Roaming\npm-cache\envify\1.2.1\package\package.json not in flight; writing
+565 verbose correctMkdir C:\Users\Dragovic\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+566 silly cache afterAdd workshopper-wrappedexec@0.1.2
+567 verbose afterAdd C:\Users\Dragovic\AppData\Roaming\npm-cache\workshopper-wrappedexec\0.1.2\package\package.json not in flight; writing
+568 verbose correctMkdir C:\Users\Dragovic\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+569 silly cache afterAdd react@15.3.2
+570 verbose afterAdd C:\Users\Dragovic\AppData\Roaming\npm-cache\react\15.3.2\package\package.json not in flight; writing
+571 verbose correctMkdir C:\Users\Dragovic\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+572 silly cache afterAdd mocha@1.21.5
+573 verbose afterAdd C:\Users\Dragovic\AppData\Roaming\npm-cache\mocha\1.21.5\package\package.json not in flight; writing
+574 verbose correctMkdir C:\Users\Dragovic\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+575 verbose afterAdd C:\Users\Dragovic\AppData\Roaming\npm-cache\workshopper-exercise\0.2.3\package\package.json written
+576 verbose afterAdd C:\Users\Dragovic\AppData\Roaming\npm-cache\jsdom\7.2.2\package\package.json written
+577 verbose afterAdd C:\Users\Dragovic\AppData\Roaming\npm-cache\concat-stream\1.5.2\package\package.json written
+578 verbose afterAdd C:\Users\Dragovic\AppData\Roaming\npm-cache\envify\1.2.1\package\package.json written
+579 verbose afterAdd C:\Users\Dragovic\AppData\Roaming\npm-cache\mocha\1.21.5\package\package.json written
+580 verbose afterAdd C:\Users\Dragovic\AppData\Roaming\npm-cache\workshopper-wrappedexec\0.1.2\package\package.json written
+581 verbose afterAdd C:\Users\Dragovic\AppData\Roaming\npm-cache\react\15.3.2\package\package.json written
+582 http 304 https://registry.npmjs.org/react-dom
+583 verbose headers { date: 'Sat, 08 Oct 2016 20:37:51 GMT',
+583 verbose headers   via: '1.1 varnish',
+583 verbose headers   'cache-control': 'max-age=300',
+583 verbose headers   etag: '"9N41SMNBUV46ZYRDM2VYSR1R"',
+583 verbose headers   age: '0',
+583 verbose headers   connection: 'keep-alive',
+583 verbose headers   'x-served-by': 'cache-cdg8725-CDG',
+583 verbose headers   'x-cache': 'HIT',
+583 verbose headers   'x-cache-hits': '1',
+583 verbose headers   'x-timer': 'S1475959071.273797,VS0,VE424',
+583 verbose headers   vary: 'Accept-Encoding' }
+584 silly get cb [ 304,
+584 silly get   { date: 'Sat, 08 Oct 2016 20:37:51 GMT',
+584 silly get     via: '1.1 varnish',
+584 silly get     'cache-control': 'max-age=300',
+584 silly get     etag: '"9N41SMNBUV46ZYRDM2VYSR1R"',
+584 silly get     age: '0',
+584 silly get     connection: 'keep-alive',
+584 silly get     'x-served-by': 'cache-cdg8725-CDG',
+584 silly get     'x-cache': 'HIT',
+584 silly get     'x-cache-hits': '1',
+584 silly get     'x-timer': 'S1475959071.273797,VS0,VE424',
+584 silly get     vary: 'Accept-Encoding' } ]
+585 verbose etag https://registry.npmjs.org/react-dom from cache
+586 verbose get saving react-dom to C:\Users\Dragovic\AppData\Roaming\npm-cache\registry.npmjs.org\react-dom\.cache.json
+587 verbose correctMkdir C:\Users\Dragovic\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+588 silly addNameRange number 2 { name: 'react-dom', range: '>=15.1.0 <16.0.0', hasData: true }
+589 silly addNameRange versions [ 'react-dom',
+589 silly addNameRange   [ '0.1.0',
+589 silly addNameRange     '0.14.0-beta1',
+589 silly addNameRange     '0.14.0-beta2',
+589 silly addNameRange     '0.14.0-beta3',
+589 silly addNameRange     '0.14.0-rc1',
+589 silly addNameRange     '0.14.0',
+589 silly addNameRange     '0.14.1',
+589 silly addNameRange     '0.14.2',
+589 silly addNameRange     '0.14.3',
+589 silly addNameRange     '0.14.4',
+589 silly addNameRange     '0.14.5',
+589 silly addNameRange     '0.14.6',
+589 silly addNameRange     '0.15.0-alpha.1',
+589 silly addNameRange     '0.14.7',
+589 silly addNameRange     '15.0.0-rc.1',
+589 silly addNameRange     '15.0.0-rc.2',
+589 silly addNameRange     '0.14.8',
+589 silly addNameRange     '15.0.0',
+589 silly addNameRange     '15.0.1',
+589 silly addNameRange     '15.0.2-alpha.1',
+589 silly addNameRange     '15.0.2-alpha.2',
+589 silly addNameRange     '15.0.2-alpha.3',
+589 silly addNameRange     '15.0.2-alpha.4',
+589 silly addNameRange     '15.0.2',
+589 silly addNameRange     '15.0.3-alpha.1',
+589 silly addNameRange     '15.0.3-alpha.2',
+589 silly addNameRange     '15.1.0-alpha.1',
+589 silly addNameRange     '15.1.0',
+589 silly addNameRange     '15.2.0-rc.1',
+589 silly addNameRange     '15.2.0-rc.2',
+589 silly addNameRange     '15.2.0',
+589 silly addNameRange     '15.2.1',
+589 silly addNameRange     '15.3.0-rc.1',
+589 silly addNameRange     '15.3.0-rc.2',
+589 silly addNameRange     '15.3.0-rc.3',
+589 silly addNameRange     '15.3.0',
+589 silly addNameRange     '15.3.1-rc.1',
+589 silly addNameRange     '15.3.1-rc.2',
+589 silly addNameRange     '15.3.1',
+589 silly addNameRange     '15.3.2-rc.1',
+589 silly addNameRange     '15.3.2',
+589 silly addNameRange     '15.4.0-rc.1',
+589 silly addNameRange     '15.4.0-rc.2' ] ]
+590 silly addNamed react-dom@15.3.2
+591 verbose addNamed "15.3.2" is a plain semver version for react-dom
+592 silly cache afterAdd react-dom@15.3.2
+593 verbose afterAdd C:\Users\Dragovic\AppData\Roaming\npm-cache\react-dom\15.3.2\package\package.json not in flight; writing
+594 verbose correctMkdir C:\Users\Dragovic\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+595 verbose afterAdd C:\Users\Dragovic\AppData\Roaming\npm-cache\react-dom\15.3.2\package\package.json written
+596 verbose about to build C:\Users\Dragovic\AppData\Roaming\npm\node_modules\thinking-in-react
+597 verbose unlock done using C:\Users\Dragovic\AppData\Roaming\npm-cache\_locks\thinking-in-react-421808578ae8e20e.lock for C:\Users\Dragovic\AppData\Roaming\npm\node_modules\thinking-in-react
+598 verbose stack Error: not found: git
+598 verbose stack     at F (C:\Program Files\nodejs\node_modules\npm\node_modules\which\which.js:63:19)
+598 verbose stack     at E (C:\Program Files\nodejs\node_modules\npm\node_modules\which\which.js:72:29)
+598 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\which\which.js:81:16
+598 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\which\node_modules\isexe\index.js:44:5
+598 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\which\node_modules\isexe\windows.js:29:5
+598 verbose stack     at FSReqWrap.oncomplete (fs.js:82:15)
+599 verbose cwd D:\#NodeJS\react-app
+600 error Windows_NT 10.0.10586
+601 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "i" "-g" "thinking-in-react"
+602 error node v4.4.1
+603 error npm  v2.14.20
+604 error code ENOGIT
+605 error not found: git
+606 error Failed using git.
+606 error This is most likely not a problem with npm itself.
+606 error Please check if you have git installed and in your PATH.
+607 verbose exit [ 1, true ]
+608 verbose unbuild node_modules\thinking-in-react
+609 info preuninstall thinking-in-react@3.1.1
+610 info uninstall thinking-in-react@3.1.1
+611 verbose unbuild rmStuff thinking-in-react@3.1.1 from C:\Users\Dragovic\AppData\Roaming\npm\node_modules
+612 silly gentlyRm C:\Users\Dragovic\AppData\Roaming\npm\thinking-in-react.cmd is being gently removed
+613 silly gentlyRm verifying C:\Users\Dragovic\AppData\Roaming\npm is an npm working directory
+614 silly gentlyRm containing path C:\Users\Dragovic\AppData\Roaming\npm is under npm's control, in C:\Users\Dragovic\AppData\Roaming\npm
+615 silly gentlyRm deletion target C:\Users\Dragovic\AppData\Roaming\npm\thinking-in-react.cmd is under C:\Users\Dragovic\AppData\Roaming\npm
+616 verbose gentlyRm vacuuming from C:\Users\Dragovic\AppData\Roaming\npm\thinking-in-react.cmd up to C:\Users\Dragovic\AppData\Roaming\npm
+617 silly gentlyRm C:\Users\Dragovic\AppData\Roaming\npm\thinking-in-react is being gently removed
+618 silly gentlyRm verifying C:\Users\Dragovic\AppData\Roaming\npm is an npm working directory
+619 silly gentlyRm containing path C:\Users\Dragovic\AppData\Roaming\npm is under npm's control, in C:\Users\Dragovic\AppData\Roaming\npm
+620 silly gentlyRm deletion target C:\Users\Dragovic\AppData\Roaming\npm\thinking-in-react is under C:\Users\Dragovic\AppData\Roaming\npm
+621 verbose gentlyRm vacuuming from C:\Users\Dragovic\AppData\Roaming\npm\thinking-in-react up to C:\Users\Dragovic\AppData\Roaming\npm
+622 info postuninstall thinking-in-react@3.1.1
+623 silly gentlyRm C:\Users\Dragovic\AppData\Roaming\npm\node_modules\thinking-in-react is being purged from base C:\Users\Dragovic\AppData\Roaming\npm
+624 verbose gentlyRm don't care about contents; nuking C:\Users\Dragovic\AppData\Roaming\npm\node_modules\thinking-in-react
+625 silly vacuum-fs purging C:\Users\Dragovic\AppData\Roaming\npm\node_modules\thinking-in-react
+626 silly vacuum-fs removing C:\Users\Dragovic\AppData\Roaming\npm\node_modules
+627 silly vacuum-fs finished vacuuming up to C:\Users\Dragovic\AppData\Roaming\npm
